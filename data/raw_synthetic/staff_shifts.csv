@@ -1,0 +1,225 @@
+﻿date,location,shift,scheduled_staff,active_staff,training_band
+2026-07-01,Reception,Morning,3,3,Basic
+2026-07-01,Reception,Evening,4,3,Intermediate
+2026-07-01,Central Billing,Morning,6,6,Intermediate
+2026-07-01,Central Billing,Evening,5,4,Advanced
+2026-07-01,Lab A,Morning,5,5,Basic
+2026-07-01,Lab A,Evening,5,5,Basic
+2026-07-01,Lab B,Morning,3,2,Advanced
+2026-07-01,Lab B,Evening,7,7,Advanced
+2026-07-01,Radiology A,Morning,7,6,Intermediate
+2026-07-01,Radiology A,Evening,6,6,Advanced
+2026-07-01,Radiology B,Morning,3,3,Advanced
+2026-07-01,Radiology B,Evening,7,7,Advanced
+2026-07-01,ECG,Morning,6,5,Intermediate
+2026-07-01,ECG,Evening,6,5,Basic
+2026-07-01,Ultrasound,Morning,7,6,Advanced
+2026-07-01,Ultrasound,Evening,4,4,Advanced
+2026-07-02,Reception,Morning,4,4,Advanced
+2026-07-02,Reception,Evening,3,2,Intermediate
+2026-07-02,Central Billing,Morning,7,6,Advanced
+2026-07-02,Central Billing,Evening,3,2,Advanced
+2026-07-02,Lab A,Morning,6,5,Advanced
+2026-07-02,Lab A,Evening,7,6,Advanced
+2026-07-02,Lab B,Morning,4,4,Intermediate
+2026-07-02,Lab B,Evening,7,6,Basic
+2026-07-02,Radiology A,Morning,4,3,Basic
+2026-07-02,Radiology A,Evening,3,3,Basic
+2026-07-02,Radiology B,Morning,6,6,Intermediate
+2026-07-02,Radiology B,Evening,3,2,Advanced
+2026-07-02,ECG,Morning,4,4,Advanced
+2026-07-02,ECG,Evening,5,4,Basic
+2026-07-02,Ultrasound,Morning,6,6,Intermediate
+2026-07-02,Ultrasound,Evening,6,6,Intermediate
+2026-07-03,Reception,Morning,5,5,Advanced
+2026-07-03,Reception,Evening,4,3,Advanced
+2026-07-03,Central Billing,Morning,4,4,Advanced
+2026-07-03,Central Billing,Evening,5,5,Intermediate
+2026-07-03,Lab A,Morning,5,4,Intermediate
+2026-07-03,Lab A,Evening,6,5,Advanced
+2026-07-03,Lab B,Morning,7,6,Intermediate
+2026-07-03,Lab B,Evening,7,6,Basic
+2026-07-03,Radiology A,Morning,5,4,Intermediate
+2026-07-03,Radiology A,Evening,5,5,Intermediate
+2026-07-03,Radiology B,Morning,4,4,Basic
+2026-07-03,Radiology B,Evening,4,3,Advanced
+2026-07-03,ECG,Morning,4,4,Intermediate
+2026-07-03,ECG,Evening,4,3,Intermediate
+2026-07-03,Ultrasound,Morning,3,3,Basic
+2026-07-03,Ultrasound,Evening,5,5,Advanced
+2026-07-04,Reception,Morning,7,6,Advanced
+2026-07-04,Reception,Evening,3,3,Basic
+2026-07-04,Central Billing,Morning,6,6,Advanced
+2026-07-04,Central Billing,Evening,5,4,Basic
+2026-07-04,Lab A,Morning,7,6,Intermediate
+2026-07-04,Lab A,Evening,3,2,Advanced
+2026-07-04,Lab B,Morning,6,5,Intermediate
+2026-07-04,Lab B,Evening,5,5,Basic
+2026-07-04,Radiology A,Morning,7,6,Intermediate
+2026-07-04,Radiology A,Evening,4,3,Intermediate
+2026-07-04,Radiology B,Morning,5,5,Basic
+2026-07-04,Radiology B,Evening,4,4,Intermediate
+2026-07-04,ECG,Morning,4,4,Intermediate
+2026-07-04,ECG,Evening,7,6,Advanced
+2026-07-04,Ultrasound,Morning,3,3,Intermediate
+2026-07-04,Ultrasound,Evening,3,3,Basic
+2026-07-05,Reception,Morning,4,4,Intermediate
+2026-07-05,Reception,Evening,3,3,Basic
+2026-07-05,Central Billing,Morning,3,3,Advanced
+2026-07-05,Central Billing,Evening,4,4,Advanced
+2026-07-05,Lab A,Morning,3,3,Intermediate
+2026-07-05,Lab A,Evening,7,7,Basic
+2026-07-05,Lab B,Morning,7,6,Intermediate
+2026-07-05,Lab B,Evening,5,5,Advanced
+2026-07-05,Radiology A,Morning,4,3,Intermediate
+2026-07-05,Radiology A,Evening,5,5,Basic
+2026-07-05,Radiology B,Morning,6,5,Advanced
+2026-07-05,Radiology B,Evening,4,4,Basic
+2026-07-05,ECG,Morning,3,2,Advanced
+2026-07-05,ECG,Evening,7,7,Advanced
+2026-07-05,Ultrasound,Morning,4,4,Intermediate
+2026-07-05,Ultrasound,Evening,7,7,Basic
+2026-07-06,Reception,Morning,3,2,Intermediate
+2026-07-06,Reception,Evening,3,3,Advanced
+2026-07-06,Central Billing,Morning,5,5,Advanced
+2026-07-06,Central Billing,Evening,6,6,Intermediate
+2026-07-06,Lab A,Morning,3,2,Basic
+2026-07-06,Lab A,Evening,6,6,Basic
+2026-07-06,Lab B,Morning,6,6,Basic
+2026-07-06,Lab B,Evening,5,5,Basic
+2026-07-06,Radiology A,Morning,7,7,Basic
+2026-07-06,Radiology A,Evening,4,4,Basic
+2026-07-06,Radiology B,Morning,4,3,Advanced
+2026-07-06,Radiology B,Evening,4,3,Advanced
+2026-07-06,ECG,Morning,7,7,Basic
+2026-07-06,ECG,Evening,3,3,Basic
+2026-07-06,Ultrasound,Morning,4,4,Basic
+2026-07-06,Ultrasound,Evening,4,3,Basic
+2026-07-07,Reception,Morning,4,3,Advanced
+2026-07-07,Reception,Evening,4,3,Advanced
+2026-07-07,Central Billing,Morning,5,4,Basic
+2026-07-07,Central Billing,Evening,5,5,Intermediate
+2026-07-07,Lab A,Morning,4,4,Basic
+2026-07-07,Lab A,Evening,4,4,Basic
+2026-07-07,Lab B,Morning,5,4,Basic
+2026-07-07,Lab B,Evening,6,6,Basic
+2026-07-07,Radiology A,Morning,3,2,Advanced
+2026-07-07,Radiology A,Evening,5,5,Advanced
+2026-07-07,Radiology B,Morning,4,4,Basic
+2026-07-07,Radiology B,Evening,5,4,Intermediate
+2026-07-07,ECG,Morning,7,6,Intermediate
+2026-07-07,ECG,Evening,4,3,Advanced
+2026-07-07,Ultrasound,Morning,3,3,Advanced
+2026-07-07,Ultrasound,Evening,4,3,Intermediate
+2026-07-08,Reception,Morning,3,2,Advanced
+2026-07-08,Reception,Evening,7,6,Intermediate
+2026-07-08,Central Billing,Morning,3,2,Advanced
+2026-07-08,Central Billing,Evening,6,5,Advanced
+2026-07-08,Lab A,Morning,3,3,Intermediate
+2026-07-08,Lab A,Evening,4,4,Advanced
+2026-07-08,Lab B,Morning,3,2,Advanced
+2026-07-08,Lab B,Evening,3,3,Intermediate
+2026-07-08,Radiology A,Morning,5,5,Advanced
+2026-07-08,Radiology A,Evening,3,3,Advanced
+2026-07-08,Radiology B,Morning,6,6,Basic
+2026-07-08,Radiology B,Evening,5,5,Basic
+2026-07-08,ECG,Morning,5,4,Advanced
+2026-07-08,ECG,Evening,7,7,Basic
+2026-07-08,Ultrasound,Morning,6,6,Advanced
+2026-07-08,Ultrasound,Evening,5,5,Basic
+2026-07-09,Reception,Morning,3,2,Basic
+2026-07-09,Reception,Evening,7,6,Basic
+2026-07-09,Central Billing,Morning,4,3,Intermediate
+2026-07-09,Central Billing,Evening,4,4,Intermediate
+2026-07-09,Lab A,Morning,4,3,Advanced
+2026-07-09,Lab A,Evening,7,7,Advanced
+2026-07-09,Lab B,Morning,6,6,Intermediate
+2026-07-09,Lab B,Evening,4,4,Advanced
+2026-07-09,Radiology A,Morning,5,5,Intermediate
+2026-07-09,Radiology A,Evening,6,5,Advanced
+2026-07-09,Radiology B,Morning,6,5,Advanced
+2026-07-09,Radiology B,Evening,3,3,Intermediate
+2026-07-09,ECG,Morning,3,3,Intermediate
+2026-07-09,ECG,Evening,7,7,Intermediate
+2026-07-09,Ultrasound,Morning,3,3,Basic
+2026-07-09,Ultrasound,Evening,3,3,Advanced
+2026-07-10,Reception,Morning,6,6,Intermediate
+2026-07-10,Reception,Evening,4,4,Advanced
+2026-07-10,Central Billing,Morning,4,4,Advanced
+2026-07-10,Central Billing,Evening,7,7,Basic
+2026-07-10,Lab A,Morning,6,5,Basic
+2026-07-10,Lab A,Evening,3,3,Advanced
+2026-07-10,Lab B,Morning,6,5,Advanced
+2026-07-10,Lab B,Evening,6,5,Intermediate
+2026-07-10,Radiology A,Morning,3,2,Basic
+2026-07-10,Radiology A,Evening,3,2,Advanced
+2026-07-10,Radiology B,Morning,4,3,Basic
+2026-07-10,Radiology B,Evening,7,6,Intermediate
+2026-07-10,ECG,Morning,5,5,Intermediate
+2026-07-10,ECG,Evening,3,3,Intermediate
+2026-07-10,Ultrasound,Morning,3,3,Intermediate
+2026-07-10,Ultrasound,Evening,7,6,Intermediate
+2026-07-11,Reception,Morning,5,4,Basic
+2026-07-11,Reception,Evening,3,3,Intermediate
+2026-07-11,Central Billing,Morning,4,4,Intermediate
+2026-07-11,Central Billing,Evening,7,7,Advanced
+2026-07-11,Lab A,Morning,3,2,Basic
+2026-07-11,Lab A,Evening,6,6,Intermediate
+2026-07-11,Lab B,Morning,5,4,Advanced
+2026-07-11,Lab B,Evening,7,6,Basic
+2026-07-11,Radiology A,Morning,6,5,Basic
+2026-07-11,Radiology A,Evening,5,5,Basic
+2026-07-11,Radiology B,Morning,5,4,Advanced
+2026-07-11,Radiology B,Evening,6,6,Advanced
+2026-07-11,ECG,Morning,6,5,Basic
+2026-07-11,ECG,Evening,6,6,Advanced
+2026-07-11,Ultrasound,Morning,3,3,Intermediate
+2026-07-11,Ultrasound,Evening,7,6,Basic
+2026-07-12,Reception,Morning,5,5,Basic
+2026-07-12,Reception,Evening,5,5,Basic
+2026-07-12,Central Billing,Morning,4,3,Intermediate
+2026-07-12,Central Billing,Evening,4,4,Advanced
+2026-07-12,Lab A,Morning,4,4,Advanced
+2026-07-12,Lab A,Evening,6,5,Advanced
+2026-07-12,Lab B,Morning,4,4,Basic
+2026-07-12,Lab B,Evening,3,2,Basic
+2026-07-12,Radiology A,Morning,3,2,Intermediate
+2026-07-12,Radiology A,Evening,4,4,Advanced
+2026-07-12,Radiology B,Morning,5,5,Intermediate
+2026-07-12,Radiology B,Evening,5,4,Advanced
+2026-07-12,ECG,Morning,3,3,Intermediate
+2026-07-12,ECG,Evening,5,5,Intermediate
+2026-07-12,Ultrasound,Morning,7,7,Intermediate
+2026-07-12,Ultrasound,Evening,5,4,Advanced
+2026-07-13,Reception,Morning,5,5,Advanced
+2026-07-13,Reception,Evening,6,5,Intermediate
+2026-07-13,Central Billing,Morning,4,3,Intermediate
+2026-07-13,Central Billing,Evening,3,3,Intermediate
+2026-07-13,Lab A,Morning,5,4,Advanced
+2026-07-13,Lab A,Evening,7,6,Basic
+2026-07-13,Lab B,Morning,3,2,Intermediate
+2026-07-13,Lab B,Evening,5,5,Intermediate
+2026-07-13,Radiology A,Morning,5,4,Basic
+2026-07-13,Radiology A,Evening,4,3,Basic
+2026-07-13,Radiology B,Morning,3,3,Intermediate
+2026-07-13,Radiology B,Evening,7,7,Advanced
+2026-07-13,ECG,Morning,5,5,Basic
+2026-07-13,ECG,Evening,4,3,Basic
+2026-07-13,Ultrasound,Morning,4,3,Advanced
+2026-07-13,Ultrasound,Evening,7,7,Advanced
+2026-07-14,Reception,Morning,7,7,Intermediate
+2026-07-14,Reception,Evening,4,4,Advanced
+2026-07-14,Central Billing,Morning,6,5,Basic
+2026-07-14,Central Billing,Evening,3,3,Advanced
+2026-07-14,Lab A,Morning,5,4,Intermediate
+2026-07-14,Lab A,Evening,3,2,Intermediate
+2026-07-14,Lab B,Morning,6,5,Advanced
+2026-07-14,Lab B,Evening,6,5,Intermediate
+2026-07-14,Radiology A,Morning,3,3,Basic
+2026-07-14,Radiology A,Evening,7,6,Basic
+2026-07-14,Radiology B,Morning,7,6,Basic
+2026-07-14,Radiology B,Evening,3,2,Intermediate
+2026-07-14,ECG,Morning,7,7,Intermediate
+2026-07-14,ECG,Evening,3,3,Basic
+2026-07-14,Ultrasound,Morning,3,2,Advanced
+2026-07-14,Ultrasound,Evening,5,5,Basic

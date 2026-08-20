@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "synthetic_only": true,
+  "counts": {
+    "patients": 1200,
+    "encounters": 1800,
+    "service_orders": 4350,
+    "workflow_tasks": 4350,
+    "queue_events": 4350,
+    "billing_rows": 4350,
+    "staff_shift_rows": 224
+  }
+}
