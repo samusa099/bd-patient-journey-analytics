@@ -1,0 +1,13 @@
+﻿node_id,node_name,building,floor,service_type
+N01,Reception,Main,1,Registration
+N02,Medicine OPD,Main,3,Consultation
+N03,Cardiology,Main,5,Consultation
+N04,Lab A,Diagnostic,2,Laboratory
+N05,Lab B,Diagnostic,4,Laboratory
+N06,Radiology A,Diagnostic,3,Imaging
+N07,Radiology B,Diagnostic,6,Imaging
+N08,ECG,Main,5,Cardiac Test
+N09,Ultrasound,Diagnostic,7,Imaging
+N10,Central Billing,Main,1,Billing
+N11,Report Hub,Main,1,Reports
+N12,Exit,Main,1,Exit

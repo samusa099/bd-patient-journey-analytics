@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "Bangladesh Hospital Digital Patient Journey & HR Operations Analytics"
+version: 0.1.0
+authors:
+  - family-names: "Musa"
+    given-names: "Musa"
+license: MIT

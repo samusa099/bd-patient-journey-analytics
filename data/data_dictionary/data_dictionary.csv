@@ -1,0 +1,72 @@
+﻿table,field,type,description,privacy_class
+patients,patient_id,str,Patient id,Synthetic / non-identifying
+patients,age_band,str,Age band,Synthetic / non-identifying
+patients,sex,str,Sex,Synthetic / non-identifying
+patients,identity_method,str,Identity method,Synthetic / non-identifying
+patients,synthetic,bool,Synthetic,Synthetic / non-identifying
+encounters,encounter_id,str,Encounter id,Synthetic / non-identifying
+encounters,patient_id,str,Patient id,Synthetic / non-identifying
+encounters,arrival_ts,str,Arrival ts,Synthetic / non-identifying
+encounters,doctor_department,str,Doctor department,Synthetic / non-identifying
+encounters,ordered_service_count,int,Ordered service count,Synthetic / non-identifying
+encounters,status,str,Status,Synthetic / non-identifying
+service_orders,order_id,str,Order id,Synthetic / non-identifying
+service_orders,encounter_id,str,Encounter id,Synthetic / non-identifying
+service_orders,patient_id,str,Patient id,Synthetic / non-identifying
+service_orders,service_name,str,Service name,Synthetic / non-identifying
+service_orders,service_category,str,Service category,Synthetic / non-identifying
+service_orders,ordered_ts,str,Ordered ts,Synthetic / non-identifying
+service_orders,clinical_priority,str,Clinical priority,Synthetic / non-identifying
+service_orders,order_status,str,Order status,Synthetic / non-identifying
+workflow_tasks,task_id,str,Task id,Synthetic / non-identifying
+workflow_tasks,order_id,str,Order id,Synthetic / non-identifying
+workflow_tasks,encounter_id,str,Encounter id,Synthetic / non-identifying
+workflow_tasks,assigned_location,str,Assigned location,Synthetic / non-identifying
+workflow_tasks,task_status,str,Task status,Synthetic / non-identifying
+workflow_tasks,routing_method,str,Routing method,Synthetic / non-identifying
+workflow_tasks,estimated_wait_min,int,Estimated wait min,Synthetic / non-identifying
+workflow_tasks,actual_wait_min,int,Actual wait min,Synthetic / non-identifying
+queue_events,queue_event_id,str,Queue event id,Synthetic / non-identifying
+queue_events,encounter_id,str,Encounter id,Synthetic / non-identifying
+queue_events,service_name,str,Service name,Synthetic / non-identifying
+queue_events,location,str,Location,Synthetic / non-identifying
+queue_events,queue_wait_min,int,Queue wait min,Synthetic / non-identifying
+queue_events,service_time_min,int,Service time min,Synthetic / non-identifying
+queue_events,sla_breach,bool,Sla breach,Synthetic / non-identifying
+billing_ledger,ledger_id,str,Ledger id,Synthetic / non-identifying
+billing_ledger,encounter_id,str,Encounter id,Synthetic / non-identifying
+billing_ledger,patient_id,str,Patient id,Synthetic / non-identifying
+billing_ledger,service_name,str,Service name,Synthetic / non-identifying
+billing_ledger,department,str,Department,Synthetic / non-identifying
+billing_ledger,gross_charge_bdt,int,Gross charge bdt,Synthetic / non-identifying
+billing_ledger,discount_bdt,int,Discount bdt,Synthetic / non-identifying
+billing_ledger,patient_payable_bdt,int,Patient payable bdt,Synthetic / non-identifying
+billing_ledger,billing_mode,str,Billing mode,Synthetic / non-identifying
+billing_ledger,payment_status,str,Payment status,Synthetic / non-identifying
+hospital_nodes,node_id,str,Node id,Synthetic / non-identifying
+hospital_nodes,node_name,str,Node name,Synthetic / non-identifying
+hospital_nodes,building,str,Building,Synthetic / non-identifying
+hospital_nodes,floor,int,Floor,Synthetic / non-identifying
+hospital_nodes,service_type,str,Service type,Synthetic / non-identifying
+hospital_edges,edge_id,str,Edge id,Synthetic / non-identifying
+hospital_edges,from_node,str,From node,Synthetic / non-identifying
+hospital_edges,to_node,str,To node,Synthetic / non-identifying
+hospital_edges,distance_m,int,Distance m,Synthetic / non-identifying
+hospital_edges,expected_walk_min,float,Expected walk min,Synthetic / non-identifying
+hospital_edges,bidirectional,bool,Bidirectional,Synthetic / non-identifying
+staff_shifts,date,str,Date,Synthetic / non-identifying
+staff_shifts,location,str,Location,Synthetic / non-identifying
+staff_shifts,shift,str,Shift,Synthetic / non-identifying
+staff_shifts,scheduled_staff,int,Scheduled staff,Synthetic / non-identifying
+staff_shifts,active_staff,int,Active staff,Synthetic / non-identifying
+staff_shifts,training_band,str,Training band,Synthetic / non-identifying
+journey_summary,encounter_id,str,Encounter id,Synthetic / non-identifying
+journey_summary,patient_id,str,Patient id,Synthetic / non-identifying
+journey_summary,service_count,int,Service count,Synthetic / non-identifying
+journey_summary,baseline_payment_touchpoints,int,Baseline payment touchpoints,Synthetic / non-identifying
+journey_summary,centralized_payment_touchpoints,int,Centralized payment touchpoints,Synthetic / non-identifying
+journey_summary,baseline_admin_minutes,float,Baseline admin minutes,Synthetic / non-identifying
+journey_summary,redesigned_admin_minutes,float,Redesigned admin minutes,Synthetic / non-identifying
+journey_summary,baseline_walking_m,int,Baseline walking m,Synthetic / non-identifying
+journey_summary,redesigned_walking_m,int,Redesigned walking m,Synthetic / non-identifying
+journey_summary,total_payable_bdt,int,Total payable bdt,Synthetic / non-identifying

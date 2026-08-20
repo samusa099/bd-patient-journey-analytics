@@ -1,0 +1,10 @@
+name: Case Study Submission
+description: Submit a completed analysis
+title: "[CASE] "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Executive summary
+    validations:
+      required: true
