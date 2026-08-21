@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - v1.0.0-build
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -39,7 +42,7 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          import csv, json, zipfile
+          import json, zipfile
           root=Path('.')
           required=['README.md','LICENSE','DATA_LICENSE.md','MANIFEST.json','excel/Hospital_Digital_Patient_Journey_HR_Operations_v1.0.xlsx','data/09_analysis_ready/journey_summary.csv','kaggle/dataset-metadata.json']
           errors=[]
@@ -61,6 +64,7 @@ jobs:
         run: rm -f scripts/build_v1.py.gz.b64
 
       - name: Commit generated project
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
