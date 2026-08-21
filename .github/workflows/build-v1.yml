@@ -1,0 +1,73 @@
+name: Build v1.0.0 Project
+
+on:
+  push:
+    branches:
+      - v1.0.0-build
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: v1.0.0-build
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install workbook dependency
+        run: pip install 'openpyxl>=3.1,<4'
+
+      - name: Decode v1 generator
+        run: |
+          base64 -d scripts/build_v1.py.gz.b64 | gzip -d > scripts/build_v1.py
+
+      - name: Build v1.0.0
+        run: python scripts/build_v1.py
+
+      - name: Validate v1.0.0
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import csv, json, zipfile
+          root=Path('.')
+          required=['README.md','LICENSE','DATA_LICENSE.md','MANIFEST.json','excel/Hospital_Digital_Patient_Journey_HR_Operations_v1.0.xlsx','data/09_analysis_ready/journey_summary.csv','kaggle/dataset-metadata.json']
+          errors=[]
+          for rel in required:
+              p=root/rel
+              if not p.exists() or p.stat().st_size==0: errors.append(f'missing/empty: {rel}')
+          m=json.loads((root/'MANIFEST.json').read_text())
+          if m.get('version')!='1.0.0': errors.append('manifest version is not 1.0.0')
+          if not m.get('synthetic_only'): errors.append('manifest synthetic_only is false')
+          if not zipfile.is_zipfile(root/'excel/Hospital_Digital_Patient_Journey_HR_Operations_v1.0.xlsx'): errors.append('invalid xlsx container')
+          with open(root/'data/09_analysis_ready/journey_summary.csv',encoding='utf-8-sig') as f:
+              if sum(1 for _ in f)<1000: errors.append('journey dataset unexpectedly small')
+          if errors:
+              print('\n'.join(errors)); raise SystemExit(1)
+          print('PASS: v1.0.0 build validated')
+          PY
+
+      - name: Remove compressed generator from release tree
+        run: rm -f scripts/build_v1.py.gz.b64
+
+      - name: Commit generated project
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "release: build complete v1.0.0 project"
+            git push origin HEAD:v1.0.0-build
+          fi
