@@ -1,3 +1,3 @@
 # Data Provenance
 
-All records are synthetic. No real patient, biometric, billing or employee records are included.
+All records are programmatically generated synthetic data. No real hospital patient, biometric, billing or employee records are included.

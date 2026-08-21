@@ -1,0 +1,811 @@
+﻿date,location,shift,scheduled_staff,active_staff,patient_demand,patients_per_active_staff,overtime_hours,absence_flag
+2026-07-01,Reception,Morning,3,2,112,56.0,3.56,True
+2026-07-01,Reception,Evening,6,6,172,28.67,1.56,False
+2026-07-01,Central Billing,Morning,3,3,138,46.0,3.67,False
+2026-07-01,Central Billing,Evening,4,4,91,22.75,0,False
+2026-07-01,Lab A,Morning,4,4,169,42.25,4.06,False
+2026-07-01,Lab A,Evening,4,4,147,36.75,2.83,False
+2026-07-01,Lab B,Morning,3,3,113,37.67,2.28,False
+2026-07-01,Lab B,Evening,7,6,119,19.83,0,True
+2026-07-01,Radiology A,Morning,6,6,44,7.33,0,False
+2026-07-01,Radiology A,Evening,6,6,45,7.5,0,False
+2026-07-01,Radiology B,Morning,3,2,50,25.0,0.11,True
+2026-07-01,Radiology B,Evening,7,7,115,16.43,0,False
+2026-07-01,ECG,Morning,4,4,77,19.25,0,False
+2026-07-01,ECG,Evening,3,3,50,16.67,0,False
+2026-07-01,Ultrasound,Morning,3,3,113,37.67,2.28,False
+2026-07-01,Ultrasound,Evening,5,5,82,16.4,0,False
+2026-07-01,Report Hub,Morning,6,6,101,16.83,0,False
+2026-07-01,Report Hub,Evening,5,4,108,27.0,0.67,True
+2026-07-02,Reception,Morning,4,4,79,19.75,0,False
+2026-07-02,Reception,Evening,5,5,90,18.0,0,False
+2026-07-02,Central Billing,Morning,6,5,152,30.4,1.78,True
+2026-07-02,Central Billing,Evening,5,4,151,37.75,3.06,True
+2026-07-02,Lab A,Morning,2,1,72,72.0,2.67,True
+2026-07-02,Lab A,Evening,2,2,139,69.5,5.06,False
+2026-07-02,Lab B,Morning,3,3,43,14.33,0,False
+2026-07-02,Lab B,Evening,5,5,156,31.2,2.0,False
+2026-07-02,Radiology A,Morning,4,4,168,42.0,4.0,False
+2026-07-02,Radiology A,Evening,3,3,122,40.67,2.78,False
+2026-07-02,Radiology B,Morning,5,5,162,32.4,2.33,False
+2026-07-02,Radiology B,Evening,7,7,65,9.29,0,False
+2026-07-02,ECG,Morning,5,5,91,18.2,0,False
+2026-07-02,ECG,Evening,5,5,129,25.8,0.5,False
+2026-07-02,Ultrasound,Morning,4,4,122,30.5,1.44,False
+2026-07-02,Ultrasound,Evening,2,2,98,49.0,2.78,False
+2026-07-02,Report Hub,Morning,7,7,173,24.71,0.28,False
+2026-07-02,Report Hub,Evening,4,4,78,19.5,0,False
+2026-07-03,Reception,Morning,6,6,78,13.0,0,False
+2026-07-03,Reception,Evening,7,6,127,21.17,0,True
+2026-07-03,Central Billing,Morning,2,2,167,83.5,6.61,False
+2026-07-03,Central Billing,Evening,6,6,148,24.67,0.22,False
+2026-07-03,Lab A,Morning,3,3,111,37.0,2.17,False
+2026-07-03,Lab A,Evening,7,7,152,21.71,0,False
+2026-07-03,Lab B,Morning,5,5,168,33.6,2.67,False
+2026-07-03,Lab B,Evening,4,3,86,28.67,0.78,True
+2026-07-03,Radiology A,Morning,5,5,128,25.6,0.44,False
+2026-07-03,Radiology A,Evening,4,4,62,15.5,0,False
+2026-07-03,Radiology B,Morning,7,7,118,16.86,0,False
+2026-07-03,Radiology B,Evening,6,5,148,29.6,1.56,True
+2026-07-03,ECG,Morning,2,2,73,36.5,1.39,False
+2026-07-03,ECG,Evening,6,6,161,26.83,0.94,False
+2026-07-03,Ultrasound,Morning,6,5,170,34.0,2.78,True
+2026-07-03,Ultrasound,Evening,4,4,86,21.5,0,False
+2026-07-03,Report Hub,Morning,2,1,127,127.0,5.72,True
+2026-07-03,Report Hub,Evening,7,7,60,8.57,0,False
+2026-07-04,Reception,Morning,2,2,55,27.5,0.39,False
+2026-07-04,Reception,Evening,5,5,124,24.8,0.22,False
+2026-07-04,Central Billing,Morning,5,5,155,31.0,1.94,False
+2026-07-04,Central Billing,Evening,3,3,45,15.0,0,False
+2026-07-04,Lab A,Morning,3,3,123,41.0,2.83,False
+2026-07-04,Lab A,Evening,2,2,79,39.5,1.72,False
+2026-07-04,Lab B,Morning,3,2,100,50.0,2.89,True
+2026-07-04,Lab B,Evening,7,7,84,12.0,0,False
+2026-07-04,Radiology A,Morning,2,2,122,61.0,4.11,False
+2026-07-04,Radiology A,Evening,3,3,86,28.67,0.78,False
+2026-07-04,Radiology B,Morning,4,4,131,32.75,1.94,False
+2026-07-04,Radiology B,Evening,7,7,167,23.86,0,False
+2026-07-04,ECG,Morning,7,6,158,26.33,0.78,True
+2026-07-04,ECG,Evening,2,2,177,88.5,7.17,False
+2026-07-04,Ultrasound,Morning,2,1,84,84.0,3.33,True
+2026-07-04,Ultrasound,Evening,3,3,112,37.33,2.22,False
+2026-07-04,Report Hub,Morning,4,4,145,36.25,2.72,False
+2026-07-04,Report Hub,Evening,5,5,77,15.4,0,False
+2026-07-05,Reception,Morning,7,7,74,10.57,0,False
+2026-07-05,Reception,Evening,4,4,75,18.75,0,False
+2026-07-05,Central Billing,Morning,4,4,131,32.75,1.94,False
+2026-07-05,Central Billing,Evening,7,7,158,22.57,0,False
+2026-07-05,Lab A,Morning,7,7,106,15.14,0,False
+2026-07-05,Lab A,Evening,7,6,78,13.0,0,True
+2026-07-05,Lab B,Morning,3,3,52,17.33,0,False
+2026-07-05,Lab B,Evening,6,6,154,25.67,0.56,False
+2026-07-05,Radiology A,Morning,5,5,108,21.6,0,False
+2026-07-05,Radiology A,Evening,7,7,50,7.14,0,False
+2026-07-05,Radiology B,Morning,6,6,49,8.17,0,False
+2026-07-05,Radiology B,Evening,5,5,73,14.6,0,False
+2026-07-05,ECG,Morning,3,3,108,36.0,2.0,False
+2026-07-05,ECG,Evening,4,4,105,26.25,0.5,False
+2026-07-05,Ultrasound,Morning,3,2,64,32.0,0.89,True
+2026-07-05,Ultrasound,Evening,2,2,52,26.0,0.22,False
+2026-07-05,Report Hub,Morning,2,2,77,38.5,1.61,False
+2026-07-05,Report Hub,Evening,6,6,156,26.0,0.67,False
+2026-07-06,Reception,Morning,3,3,57,19.0,0,False
+2026-07-06,Reception,Evening,5,4,44,11.0,0,True
+2026-07-06,Central Billing,Morning,4,4,61,15.25,0,False
+2026-07-06,Central Billing,Evening,5,5,69,13.8,0,False
+2026-07-06,Lab A,Morning,3,3,177,59.0,5.83,False
+2026-07-06,Lab A,Evening,4,4,119,29.75,1.28,False
+2026-07-06,Lab B,Morning,2,1,173,173.0,8.28,True
+2026-07-06,Lab B,Evening,4,4,170,42.5,4.11,False
+2026-07-06,Radiology A,Morning,3,3,134,44.67,3.44,False
+2026-07-06,Radiology A,Evening,3,3,146,48.67,4.11,False
+2026-07-06,Radiology B,Morning,2,2,61,30.5,0.72,False
+2026-07-06,Radiology B,Evening,5,4,150,37.5,3.0,True
+2026-07-06,ECG,Morning,3,2,94,47.0,2.56,True
+2026-07-06,ECG,Evening,3,3,60,20.0,0,False
+2026-07-06,Ultrasound,Morning,7,7,60,8.57,0,False
+2026-07-06,Ultrasound,Evening,2,1,135,135.0,6.17,True
+2026-07-06,Report Hub,Morning,5,4,128,32.0,1.78,True
+2026-07-06,Report Hub,Evening,5,4,169,42.25,4.06,True
+2026-07-07,Reception,Morning,3,2,146,73.0,5.44,True
+2026-07-07,Reception,Evening,5,5,100,20.0,0,False
+2026-07-07,Central Billing,Morning,6,6,172,28.67,1.56,False
+2026-07-07,Central Billing,Evening,4,4,84,21.0,0,False
+2026-07-07,Lab A,Morning,4,4,69,17.25,0,False
+2026-07-07,Lab A,Evening,7,6,130,21.67,0,True
+2026-07-07,Lab B,Morning,7,7,125,17.86,0,False
+2026-07-07,Lab B,Evening,2,2,88,44.0,2.22,False
+2026-07-07,Radiology A,Morning,7,7,152,21.71,0,False
+2026-07-07,Radiology A,Evening,7,6,154,25.67,0.56,True
+2026-07-07,Radiology B,Morning,5,5,146,29.2,1.44,False
+2026-07-07,Radiology B,Evening,4,4,114,28.5,1.0,False
+2026-07-07,ECG,Morning,4,4,150,37.5,3.0,False
+2026-07-07,ECG,Evening,2,1,92,92.0,3.78,True
+2026-07-07,Ultrasound,Morning,6,6,165,27.5,1.17,False
+2026-07-07,Ultrasound,Evening,5,5,54,10.8,0,False
+2026-07-07,Report Hub,Morning,3,3,46,15.33,0,False
+2026-07-07,Report Hub,Evening,4,4,40,10.0,0,False
+2026-07-08,Reception,Morning,7,7,59,8.43,0,False
+2026-07-08,Reception,Evening,7,7,117,16.71,0,False
+2026-07-08,Central Billing,Morning,6,6,64,10.67,0,False
+2026-07-08,Central Billing,Evening,6,6,57,9.5,0,False
+2026-07-08,Lab A,Morning,2,2,70,35.0,1.22,False
+2026-07-08,Lab A,Evening,2,2,165,82.5,6.5,False
+2026-07-08,Lab B,Morning,5,5,160,32.0,2.22,False
+2026-07-08,Lab B,Evening,6,6,161,26.83,0.94,False
+2026-07-08,Radiology A,Morning,4,3,56,18.67,0,True
+2026-07-08,Radiology A,Evening,2,1,125,125.0,5.61,True
+2026-07-08,Radiology B,Morning,7,7,164,23.43,0,False
+2026-07-08,Radiology B,Evening,5,5,119,23.8,0,False
+2026-07-08,ECG,Morning,3,3,96,32.0,1.33,False
+2026-07-08,ECG,Evening,5,5,153,30.6,1.83,False
+2026-07-08,Ultrasound,Morning,6,6,139,23.17,0,False
+2026-07-08,Ultrasound,Evening,4,4,121,30.25,1.39,False
+2026-07-08,Report Hub,Morning,3,3,102,34.0,1.67,False
+2026-07-08,Report Hub,Evening,7,7,173,24.71,0.28,False
+2026-07-09,Reception,Morning,2,2,48,24.0,0,False
+2026-07-09,Reception,Evening,5,5,175,35.0,3.06,False
+2026-07-09,Central Billing,Morning,4,3,122,40.67,2.78,True
+2026-07-09,Central Billing,Evening,5,4,176,44.0,4.44,True
+2026-07-09,Lab A,Morning,6,6,177,29.5,1.83,False
+2026-07-09,Lab A,Evening,3,2,136,68.0,4.89,True
+2026-07-09,Lab B,Morning,6,6,51,8.5,0,False
+2026-07-09,Lab B,Evening,3,3,150,50.0,4.33,False
+2026-07-09,Radiology A,Morning,5,5,68,13.6,0,False
+2026-07-09,Radiology A,Evening,7,7,107,15.29,0,False
+2026-07-09,Radiology B,Morning,6,5,68,13.6,0,True
+2026-07-09,Radiology B,Evening,6,5,51,10.2,0,True
+2026-07-09,ECG,Morning,5,4,127,31.75,1.72,True
+2026-07-09,ECG,Evening,6,6,116,19.33,0,False
+2026-07-09,Ultrasound,Morning,7,7,100,14.29,0,False
+2026-07-09,Ultrasound,Evening,5,4,92,23.0,0,True
+2026-07-09,Report Hub,Morning,5,5,159,31.8,2.17,False
+2026-07-09,Report Hub,Evening,7,7,107,15.29,0,False
+2026-07-10,Reception,Morning,2,1,42,42.0,1.0,True
+2026-07-10,Reception,Evening,7,7,132,18.86,0,False
+2026-07-10,Central Billing,Morning,7,7,62,8.86,0,False
+2026-07-10,Central Billing,Evening,2,2,162,81.0,6.33,False
+2026-07-10,Lab A,Morning,5,5,115,23.0,0,False
+2026-07-10,Lab A,Evening,3,3,113,37.67,2.28,False
+2026-07-10,Lab B,Morning,4,3,98,32.67,1.44,True
+2026-07-10,Lab B,Evening,6,6,178,29.67,1.89,False
+2026-07-10,Radiology A,Morning,6,6,82,13.67,0,False
+2026-07-10,Radiology A,Evening,5,5,104,20.8,0,False
+2026-07-10,Radiology B,Morning,2,1,51,51.0,1.5,True
+2026-07-10,Radiology B,Evening,5,5,49,9.8,0,False
+2026-07-10,ECG,Morning,7,7,96,13.71,0,False
+2026-07-10,ECG,Evening,3,3,130,43.33,3.22,False
+2026-07-10,Ultrasound,Morning,7,6,52,8.67,0,True
+2026-07-10,Ultrasound,Evening,2,1,119,119.0,5.28,True
+2026-07-10,Report Hub,Morning,3,3,171,57.0,5.5,False
+2026-07-10,Report Hub,Evening,3,3,136,45.33,3.56,False
+2026-07-11,Reception,Morning,3,3,43,14.33,0,False
+2026-07-11,Reception,Evening,7,7,155,22.14,0,False
+2026-07-11,Central Billing,Morning,3,3,161,53.67,4.94,False
+2026-07-11,Central Billing,Evening,2,2,152,76.0,5.78,False
+2026-07-11,Lab A,Morning,4,4,43,10.75,0,False
+2026-07-11,Lab A,Evening,7,7,165,23.57,0,False
+2026-07-11,Lab B,Morning,7,7,109,15.57,0,False
+2026-07-11,Lab B,Evening,6,5,124,24.8,0.22,True
+2026-07-11,Radiology A,Morning,4,4,111,27.75,0.83,False
+2026-07-11,Radiology A,Evening,3,2,172,86.0,6.89,True
+2026-07-11,Radiology B,Morning,5,5,80,16.0,0,False
+2026-07-11,Radiology B,Evening,3,3,122,40.67,2.78,False
+2026-07-11,ECG,Morning,2,2,46,23.0,0,False
+2026-07-11,ECG,Evening,6,6,168,28.0,1.33,False
+2026-07-11,Ultrasound,Morning,7,7,65,9.29,0,False
+2026-07-11,Ultrasound,Evening,4,4,104,26.0,0.44,False
+2026-07-11,Report Hub,Morning,5,5,167,33.4,2.61,False
+2026-07-11,Report Hub,Evening,6,6,165,27.5,1.17,False
+2026-07-12,Reception,Morning,7,7,171,24.43,0.17,False
+2026-07-12,Reception,Evening,2,2,156,78.0,6.0,False
+2026-07-12,Central Billing,Morning,6,6,162,27.0,1.0,False
+2026-07-12,Central Billing,Evening,6,6,128,21.33,0,False
+2026-07-12,Lab A,Morning,2,2,180,90.0,7.33,False
+2026-07-12,Lab A,Evening,4,4,152,38.0,3.11,False
+2026-07-12,Lab B,Morning,6,6,82,13.67,0,False
+2026-07-12,Lab B,Evening,6,6,58,9.67,0,False
+2026-07-12,Radiology A,Morning,6,6,57,9.5,0,False
+2026-07-12,Radiology A,Evening,7,7,142,20.29,0,False
+2026-07-12,Radiology B,Morning,2,2,160,80.0,6.22,False
+2026-07-12,Radiology B,Evening,2,2,103,51.5,3.06,False
+2026-07-12,ECG,Morning,5,5,50,10.0,0,False
+2026-07-12,ECG,Evening,5,5,116,23.2,0,False
+2026-07-12,Ultrasound,Morning,4,4,58,14.5,0,False
+2026-07-12,Ultrasound,Evening,7,7,172,24.57,0.22,False
+2026-07-12,Report Hub,Morning,3,2,75,37.5,1.5,True
+2026-07-12,Report Hub,Evening,7,7,127,18.14,0,False
+2026-07-13,Reception,Morning,7,6,172,28.67,1.56,True
+2026-07-13,Reception,Evening,2,2,121,60.5,4.06,False
+2026-07-13,Central Billing,Morning,5,5,69,13.8,0,False
+2026-07-13,Central Billing,Evening,3,3,172,57.33,5.56,False
+2026-07-13,Lab A,Morning,4,3,78,26.0,0.33,True
+2026-07-13,Lab A,Evening,6,6,107,17.83,0,False
+2026-07-13,Lab B,Morning,5,5,147,29.4,1.5,False
+2026-07-13,Lab B,Evening,6,5,126,25.2,0.33,True
+2026-07-13,Radiology A,Morning,3,3,168,56.0,5.33,False
+2026-07-13,Radiology A,Evening,2,2,128,64.0,4.44,False
+2026-07-13,Radiology B,Morning,3,3,85,28.33,0.72,False
+2026-07-13,Radiology B,Evening,7,7,107,15.29,0,False
+2026-07-13,ECG,Morning,5,5,101,20.2,0,False
+2026-07-13,ECG,Evening,3,3,92,30.67,1.11,False
+2026-07-13,Ultrasound,Morning,2,2,70,35.0,1.22,False
+2026-07-13,Ultrasound,Evening,6,6,178,29.67,1.89,False
+2026-07-13,Report Hub,Morning,7,7,64,9.14,0,False
+2026-07-13,Report Hub,Evening,3,3,159,53.0,4.83,False
+2026-07-14,Reception,Morning,2,2,70,35.0,1.22,False
+2026-07-14,Reception,Evening,6,6,173,28.83,1.61,False
+2026-07-14,Central Billing,Morning,5,5,176,35.2,3.11,False
+2026-07-14,Central Billing,Evening,2,1,135,135.0,6.17,True
+2026-07-14,Lab A,Morning,4,4,75,18.75,0,False
+2026-07-14,Lab A,Evening,4,4,126,31.5,1.67,False
+2026-07-14,Lab B,Morning,2,2,44,22.0,0,False
+2026-07-14,Lab B,Evening,6,6,137,22.83,0,False
+2026-07-14,Radiology A,Morning,6,6,135,22.5,0,False
+2026-07-14,Radiology A,Evening,4,4,158,39.5,3.44,False
+2026-07-14,Radiology B,Morning,5,4,140,35.0,2.44,True
+2026-07-14,Radiology B,Evening,3,3,92,30.67,1.11,False
+2026-07-14,ECG,Morning,5,5,105,21.0,0,False
+2026-07-14,ECG,Evening,2,2,123,61.5,4.17,False
+2026-07-14,Ultrasound,Morning,7,7,46,6.57,0,False
+2026-07-14,Ultrasound,Evening,7,7,44,6.29,0,False
+2026-07-14,Report Hub,Morning,7,6,94,15.67,0,True
+2026-07-14,Report Hub,Evening,3,3,68,22.67,0,False
+2026-07-15,Reception,Morning,3,3,90,30.0,1.0,False
+2026-07-15,Reception,Evening,6,6,146,24.33,0.11,False
+2026-07-15,Central Billing,Morning,7,7,150,21.43,0,False
+2026-07-15,Central Billing,Evening,4,4,84,21.0,0,False
+2026-07-15,Lab A,Morning,4,4,84,21.0,0,False
+2026-07-15,Lab A,Evening,7,7,94,13.43,0,False
+2026-07-15,Lab B,Morning,5,5,142,28.4,1.22,False
+2026-07-15,Lab B,Evening,7,7,67,9.57,0,False
+2026-07-15,Radiology A,Morning,5,5,122,24.4,0.11,False
+2026-07-15,Radiology A,Evening,5,5,163,32.6,2.39,False
+2026-07-15,Radiology B,Morning,6,6,101,16.83,0,False
+2026-07-15,Radiology B,Evening,3,2,46,23.0,0,True
+2026-07-15,ECG,Morning,5,5,83,16.6,0,False
+2026-07-15,ECG,Evening,4,3,96,32.0,1.33,True
+2026-07-15,Ultrasound,Morning,3,3,95,31.67,1.28,False
+2026-07-15,Ultrasound,Evening,7,6,107,17.83,0,True
+2026-07-15,Report Hub,Morning,2,2,178,89.0,7.22,False
+2026-07-15,Report Hub,Evening,2,2,130,65.0,4.56,False
+2026-07-16,Reception,Morning,3,3,169,56.33,5.39,False
+2026-07-16,Reception,Evening,3,3,83,27.67,0.61,False
+2026-07-16,Central Billing,Morning,3,2,171,85.5,6.83,True
+2026-07-16,Central Billing,Evening,5,5,64,12.8,0,False
+2026-07-16,Lab A,Morning,2,2,165,82.5,6.5,False
+2026-07-16,Lab A,Evening,2,2,91,45.5,2.39,False
+2026-07-16,Lab B,Morning,5,5,65,13.0,0,False
+2026-07-16,Lab B,Evening,5,5,81,16.2,0,False
+2026-07-16,Radiology A,Morning,5,5,180,36.0,3.33,False
+2026-07-16,Radiology A,Evening,5,5,55,11.0,0,False
+2026-07-16,Radiology B,Morning,2,2,146,73.0,5.44,False
+2026-07-16,Radiology B,Evening,2,2,135,67.5,4.83,False
+2026-07-16,ECG,Morning,6,5,113,22.6,0,True
+2026-07-16,ECG,Evening,4,4,112,28.0,0.89,False
+2026-07-16,Ultrasound,Morning,6,5,164,32.8,2.44,True
+2026-07-16,Ultrasound,Evening,6,6,62,10.33,0,False
+2026-07-16,Report Hub,Morning,4,4,59,14.75,0,False
+2026-07-16,Report Hub,Evening,6,6,151,25.17,0.39,False
+2026-07-17,Reception,Morning,3,3,173,57.67,5.61,False
+2026-07-17,Reception,Evening,4,4,124,31.0,1.56,False
+2026-07-17,Central Billing,Morning,3,3,147,49.0,4.17,False
+2026-07-17,Central Billing,Evening,7,6,107,17.83,0,True
+2026-07-17,Lab A,Morning,3,2,149,74.5,5.61,True
+2026-07-17,Lab A,Evening,4,4,170,42.5,4.11,False
+2026-07-17,Lab B,Morning,4,4,117,29.25,1.17,False
+2026-07-17,Lab B,Evening,3,3,87,29.0,0.83,False
+2026-07-17,Radiology A,Morning,5,5,63,12.6,0,False
+2026-07-17,Radiology A,Evening,5,5,67,13.4,0,False
+2026-07-17,Radiology B,Morning,2,2,157,78.5,6.06,False
+2026-07-17,Radiology B,Evening,5,5,147,29.4,1.5,False
+2026-07-17,ECG,Morning,4,4,164,41.0,3.78,False
+2026-07-17,ECG,Evening,3,3,128,42.67,3.11,False
+2026-07-17,Ultrasound,Morning,2,2,79,39.5,1.72,False
+2026-07-17,Ultrasound,Evening,5,5,67,13.4,0,False
+2026-07-17,Report Hub,Morning,3,3,136,45.33,3.56,False
+2026-07-17,Report Hub,Evening,6,5,122,24.4,0.11,True
+2026-07-18,Reception,Morning,2,2,131,65.5,4.61,False
+2026-07-18,Reception,Evening,2,2,72,36.0,1.33,False
+2026-07-18,Central Billing,Morning,4,4,155,38.75,3.28,False
+2026-07-18,Central Billing,Evening,5,4,57,14.25,0,True
+2026-07-18,Lab A,Morning,5,5,124,24.8,0.22,False
+2026-07-18,Lab A,Evening,4,3,114,38.0,2.33,True
+2026-07-18,Lab B,Morning,5,5,122,24.4,0.11,False
+2026-07-18,Lab B,Evening,2,2,84,42.0,2.0,False
+2026-07-18,Radiology A,Morning,2,2,131,65.5,4.61,False
+2026-07-18,Radiology A,Evening,4,4,129,32.25,1.83,False
+2026-07-18,Radiology B,Morning,2,1,137,137.0,6.28,True
+2026-07-18,Radiology B,Evening,6,6,178,29.67,1.89,False
+2026-07-18,ECG,Morning,6,6,159,26.5,0.83,False
+2026-07-18,ECG,Evening,2,1,118,118.0,5.22,True
+2026-07-18,Ultrasound,Morning,5,5,85,17.0,0,False
+2026-07-18,Ultrasound,Evening,5,5,53,10.6,0,False
+2026-07-18,Report Hub,Morning,3,3,136,45.33,3.56,False
+2026-07-18,Report Hub,Evening,4,4,42,10.5,0,False
+2026-07-19,Reception,Morning,6,6,144,24.0,0,False
+2026-07-19,Reception,Evening,3,3,115,38.33,2.39,False
+2026-07-19,Central Billing,Morning,2,2,171,85.5,6.83,False
+2026-07-19,Central Billing,Evening,4,4,121,30.25,1.39,False
+2026-07-19,Lab A,Morning,7,6,43,7.17,0,True
+2026-07-19,Lab A,Evening,7,7,171,24.43,0.17,False
+2026-07-19,Lab B,Morning,2,2,52,26.0,0.22,False
+2026-07-19,Lab B,Evening,4,4,45,11.25,0,False
+2026-07-19,Radiology A,Morning,2,2,167,83.5,6.61,False
+2026-07-19,Radiology A,Evening,2,1,114,114.0,5.0,True
+2026-07-19,Radiology B,Morning,6,6,169,28.17,1.39,False
+2026-07-19,Radiology B,Evening,6,6,61,10.17,0,False
+2026-07-19,ECG,Morning,3,2,73,36.5,1.39,True
+2026-07-19,ECG,Evening,3,2,173,86.5,6.94,True
+2026-07-19,Ultrasound,Morning,6,5,113,22.6,0,True
+2026-07-19,Ultrasound,Evening,6,5,125,25.0,0.28,True
+2026-07-19,Report Hub,Morning,2,1,159,159.0,7.5,True
+2026-07-19,Report Hub,Evening,3,3,158,52.67,4.78,False
+2026-07-20,Reception,Morning,4,4,63,15.75,0,False
+2026-07-20,Reception,Evening,2,2,154,77.0,5.89,False
+2026-07-20,Central Billing,Morning,6,6,147,24.5,0.17,False
+2026-07-20,Central Billing,Evening,6,6,76,12.67,0,False
+2026-07-20,Lab A,Morning,4,4,90,22.5,0,False
+2026-07-20,Lab A,Evening,3,3,150,50.0,4.33,False
+2026-07-20,Lab B,Morning,7,7,134,19.14,0,False
+2026-07-20,Lab B,Evening,6,6,75,12.5,0,False
+2026-07-20,Radiology A,Morning,6,6,72,12.0,0,False
+2026-07-20,Radiology A,Evening,6,6,103,17.17,0,False
+2026-07-20,Radiology B,Morning,5,5,105,21.0,0,False
+2026-07-20,Radiology B,Evening,2,1,160,160.0,7.56,True
+2026-07-20,ECG,Morning,2,2,123,61.5,4.17,False
+2026-07-20,ECG,Evening,4,4,45,11.25,0,False
+2026-07-20,Ultrasound,Morning,3,3,170,56.67,5.44,False
+2026-07-20,Ultrasound,Evening,5,5,53,10.6,0,False
+2026-07-20,Report Hub,Morning,4,4,62,15.5,0,False
+2026-07-20,Report Hub,Evening,4,3,41,13.67,0,True
+2026-07-21,Reception,Morning,7,6,147,24.5,0.17,True
+2026-07-21,Reception,Evening,5,4,61,15.25,0,True
+2026-07-21,Central Billing,Morning,4,4,99,24.75,0.17,False
+2026-07-21,Central Billing,Evening,7,7,114,16.29,0,False
+2026-07-21,Lab A,Morning,3,3,153,51.0,4.5,False
+2026-07-21,Lab A,Evening,6,5,85,17.0,0,True
+2026-07-21,Lab B,Morning,2,2,94,47.0,2.56,False
+2026-07-21,Lab B,Evening,7,7,81,11.57,0,False
+2026-07-21,Radiology A,Morning,6,6,138,23.0,0,False
+2026-07-21,Radiology A,Evening,7,6,61,10.17,0,True
+2026-07-21,Radiology B,Morning,4,4,166,41.5,3.89,False
+2026-07-21,Radiology B,Evening,7,7,121,17.29,0,False
+2026-07-21,ECG,Morning,7,7,143,20.43,0,False
+2026-07-21,ECG,Evening,3,2,103,51.5,3.06,True
+2026-07-21,Ultrasound,Morning,6,6,101,16.83,0,False
+2026-07-21,Ultrasound,Evening,6,5,131,26.2,0.61,True
+2026-07-21,Report Hub,Morning,4,4,91,22.75,0,False
+2026-07-21,Report Hub,Evening,5,4,177,44.25,4.5,True
+2026-07-22,Reception,Morning,6,5,132,26.4,0.67,True
+2026-07-22,Reception,Evening,5,5,58,11.6,0,False
+2026-07-22,Central Billing,Morning,6,6,163,27.17,1.06,False
+2026-07-22,Central Billing,Evening,5,5,145,29.0,1.39,False
+2026-07-22,Lab A,Morning,3,3,145,48.33,4.06,False
+2026-07-22,Lab A,Evening,3,3,170,56.67,5.44,False
+2026-07-22,Lab B,Morning,2,1,139,139.0,6.39,True
+2026-07-22,Lab B,Evening,5,5,142,28.4,1.22,False
+2026-07-22,Radiology A,Morning,7,7,176,25.14,0.44,False
+2026-07-22,Radiology A,Evening,2,2,80,40.0,1.78,False
+2026-07-22,Radiology B,Morning,5,5,148,29.6,1.56,False
+2026-07-22,Radiology B,Evening,3,3,82,27.33,0.56,False
+2026-07-22,ECG,Morning,3,3,89,29.67,0.94,False
+2026-07-22,ECG,Evening,4,3,94,31.33,1.22,True
+2026-07-22,Ultrasound,Morning,4,4,85,21.25,0,False
+2026-07-22,Ultrasound,Evening,4,4,70,17.5,0,False
+2026-07-22,Report Hub,Morning,2,1,100,100.0,4.22,True
+2026-07-22,Report Hub,Evening,2,2,174,87.0,7.0,False
+2026-07-23,Reception,Morning,2,2,134,67.0,4.78,False
+2026-07-23,Reception,Evening,3,2,146,73.0,5.44,True
+2026-07-23,Central Billing,Morning,6,6,160,26.67,0.89,False
+2026-07-23,Central Billing,Evening,2,2,161,80.5,6.28,False
+2026-07-23,Lab A,Morning,4,4,131,32.75,1.94,False
+2026-07-23,Lab A,Evening,7,7,111,15.86,0,False
+2026-07-23,Lab B,Morning,5,5,150,30.0,1.67,False
+2026-07-23,Lab B,Evening,6,6,65,10.83,0,False
+2026-07-23,Radiology A,Morning,6,6,169,28.17,1.39,False
+2026-07-23,Radiology A,Evening,7,7,83,11.86,0,False
+2026-07-23,Radiology B,Morning,3,3,140,46.67,3.78,False
+2026-07-23,Radiology B,Evening,4,4,98,24.5,0.11,False
+2026-07-23,ECG,Morning,7,7,93,13.29,0,False
+2026-07-23,ECG,Evening,5,5,101,20.2,0,False
+2026-07-23,Ultrasound,Morning,6,6,41,6.83,0,False
+2026-07-23,Ultrasound,Evening,6,5,87,17.4,0,True
+2026-07-23,Report Hub,Morning,5,4,142,35.5,2.56,True
+2026-07-23,Report Hub,Evening,4,4,111,27.75,0.83,False
+2026-07-24,Reception,Morning,3,3,79,26.33,0.39,False
+2026-07-24,Reception,Evening,3,3,81,27.0,0.5,False
+2026-07-24,Central Billing,Morning,6,6,138,23.0,0,False
+2026-07-24,Central Billing,Evening,4,4,54,13.5,0,False
+2026-07-24,Lab A,Morning,2,2,113,56.5,3.61,False
+2026-07-24,Lab A,Evening,2,2,176,88.0,7.11,False
+2026-07-24,Lab B,Morning,6,5,152,30.4,1.78,True
+2026-07-24,Lab B,Evening,5,5,96,19.2,0,False
+2026-07-24,Radiology A,Morning,3,3,111,37.0,2.17,False
+2026-07-24,Radiology A,Evening,3,3,142,47.33,3.89,False
+2026-07-24,Radiology B,Morning,5,5,137,27.4,0.94,False
+2026-07-24,Radiology B,Evening,7,7,74,10.57,0,False
+2026-07-24,ECG,Morning,4,3,85,28.33,0.72,True
+2026-07-24,ECG,Evening,4,3,97,32.33,1.39,True
+2026-07-24,Ultrasound,Morning,2,2,53,26.5,0.28,False
+2026-07-24,Ultrasound,Evening,7,7,142,20.29,0,False
+2026-07-24,Report Hub,Morning,5,5,111,22.2,0,False
+2026-07-24,Report Hub,Evening,4,3,59,19.67,0,True
+2026-07-25,Reception,Morning,2,1,88,88.0,3.56,True
+2026-07-25,Reception,Evening,3,3,171,57.0,5.5,False
+2026-07-25,Central Billing,Morning,2,1,60,60.0,2.0,True
+2026-07-25,Central Billing,Evening,5,5,149,29.8,1.61,False
+2026-07-25,Lab A,Morning,4,3,167,55.67,5.28,True
+2026-07-25,Lab A,Evening,2,1,65,65.0,2.28,True
+2026-07-25,Lab B,Morning,3,3,148,49.33,4.22,False
+2026-07-25,Lab B,Evening,6,5,90,18.0,0,True
+2026-07-25,Radiology A,Morning,4,4,148,37.0,2.89,False
+2026-07-25,Radiology A,Evening,5,5,132,26.4,0.67,False
+2026-07-25,Radiology B,Morning,2,1,149,149.0,6.94,True
+2026-07-25,Radiology B,Evening,3,3,152,50.67,4.44,False
+2026-07-25,ECG,Morning,6,5,143,28.6,1.28,True
+2026-07-25,ECG,Evening,3,3,159,53.0,4.83,False
+2026-07-25,Ultrasound,Morning,2,1,105,105.0,4.5,True
+2026-07-25,Ultrasound,Evening,4,3,47,15.67,0,True
+2026-07-25,Report Hub,Morning,3,3,96,32.0,1.33,False
+2026-07-25,Report Hub,Evening,3,3,130,43.33,3.22,False
+2026-07-26,Reception,Morning,3,3,155,51.67,4.61,False
+2026-07-26,Reception,Evening,5,5,60,12.0,0,False
+2026-07-26,Central Billing,Morning,6,5,52,10.4,0,True
+2026-07-26,Central Billing,Evening,6,6,85,14.17,0,False
+2026-07-26,Lab A,Morning,6,6,65,10.83,0,False
+2026-07-26,Lab A,Evening,5,5,164,32.8,2.44,False
+2026-07-26,Lab B,Morning,6,5,43,8.6,0,True
+2026-07-26,Lab B,Evening,5,5,46,9.2,0,False
+2026-07-26,Radiology A,Morning,2,2,104,52.0,3.11,False
+2026-07-26,Radiology A,Evening,3,3,40,13.33,0,False
+2026-07-26,Radiology B,Morning,7,6,145,24.17,0.06,True
+2026-07-26,Radiology B,Evening,2,2,165,82.5,6.5,False
+2026-07-26,ECG,Morning,3,3,119,39.67,2.61,False
+2026-07-26,ECG,Evening,4,4,159,39.75,3.5,False
+2026-07-26,Ultrasound,Morning,7,7,155,22.14,0,False
+2026-07-26,Ultrasound,Evening,5,5,48,9.6,0,False
+2026-07-26,Report Hub,Morning,6,6,144,24.0,0,False
+2026-07-26,Report Hub,Evening,7,7,58,8.29,0,False
+2026-07-27,Reception,Morning,2,2,89,44.5,2.28,False
+2026-07-27,Reception,Evening,5,5,98,19.6,0,False
+2026-07-27,Central Billing,Morning,2,2,67,33.5,1.06,False
+2026-07-27,Central Billing,Evening,6,6,117,19.5,0,False
+2026-07-27,Lab A,Morning,7,6,101,16.83,0,True
+2026-07-27,Lab A,Evening,2,2,111,55.5,3.5,False
+2026-07-27,Lab B,Morning,5,4,154,38.5,3.22,True
+2026-07-27,Lab B,Evening,7,7,84,12.0,0,False
+2026-07-27,Radiology A,Morning,2,2,69,34.5,1.17,False
+2026-07-27,Radiology A,Evening,5,4,175,43.75,4.39,True
+2026-07-27,Radiology B,Morning,5,5,61,12.2,0,False
+2026-07-27,Radiology B,Evening,5,5,53,10.6,0,False
+2026-07-27,ECG,Morning,3,3,178,59.33,5.89,False
+2026-07-27,ECG,Evening,6,6,47,7.83,0,False
+2026-07-27,Ultrasound,Morning,6,6,85,14.17,0,False
+2026-07-27,Ultrasound,Evening,4,4,93,23.25,0,False
+2026-07-27,Report Hub,Morning,5,5,60,12.0,0,False
+2026-07-27,Report Hub,Evening,6,6,74,12.33,0,False
+2026-07-28,Reception,Morning,2,2,90,45.0,2.33,False
+2026-07-28,Reception,Evening,2,2,155,77.5,5.94,False
+2026-07-28,Central Billing,Morning,5,4,160,40.0,3.56,True
+2026-07-28,Central Billing,Evening,7,7,46,6.57,0,False
+2026-07-28,Lab A,Morning,2,1,139,139.0,6.39,True
+2026-07-28,Lab A,Evening,3,3,120,40.0,2.67,False
+2026-07-28,Lab B,Morning,4,3,108,36.0,2.0,True
+2026-07-28,Lab B,Evening,6,5,132,26.4,0.67,True
+2026-07-28,Radiology A,Morning,7,7,52,7.43,0,False
+2026-07-28,Radiology A,Evening,5,4,122,30.5,1.44,True
+2026-07-28,Radiology B,Morning,7,7,122,17.43,0,False
+2026-07-28,Radiology B,Evening,4,4,84,21.0,0,False
+2026-07-28,ECG,Morning,6,6,117,19.5,0,False
+2026-07-28,ECG,Evening,3,2,155,77.5,5.94,True
+2026-07-28,Ultrasound,Morning,3,3,47,15.67,0,False
+2026-07-28,Ultrasound,Evening,2,1,62,62.0,2.11,True
+2026-07-28,Report Hub,Morning,4,3,102,34.0,1.67,True
+2026-07-28,Report Hub,Evening,5,4,148,37.0,2.89,True
+2026-07-29,Reception,Morning,7,7,173,24.71,0.28,False
+2026-07-29,Reception,Evening,2,2,104,52.0,3.11,False
+2026-07-29,Central Billing,Morning,5,4,116,29.0,1.11,True
+2026-07-29,Central Billing,Evening,4,3,58,19.33,0,True
+2026-07-29,Lab A,Morning,7,7,57,8.14,0,False
+2026-07-29,Lab A,Evening,4,4,134,33.5,2.11,False
+2026-07-29,Lab B,Morning,4,3,138,46.0,3.67,True
+2026-07-29,Lab B,Evening,7,6,60,10.0,0,True
+2026-07-29,Radiology A,Morning,2,2,53,26.5,0.28,False
+2026-07-29,Radiology A,Evening,6,6,76,12.67,0,False
+2026-07-29,Radiology B,Morning,2,2,144,72.0,5.33,False
+2026-07-29,Radiology B,Evening,5,5,74,14.8,0,False
+2026-07-29,ECG,Morning,7,7,128,18.29,0,False
+2026-07-29,ECG,Evening,2,2,92,46.0,2.44,False
+2026-07-29,Ultrasound,Morning,2,1,147,147.0,6.83,True
+2026-07-29,Ultrasound,Evening,7,7,44,6.29,0,False
+2026-07-29,Report Hub,Morning,7,7,152,21.71,0,False
+2026-07-29,Report Hub,Evening,7,6,135,22.5,0,True
+2026-07-30,Reception,Morning,6,6,98,16.33,0,False
+2026-07-30,Reception,Evening,2,1,154,154.0,7.22,True
+2026-07-30,Central Billing,Morning,3,3,129,43.0,3.17,False
+2026-07-30,Central Billing,Evening,3,2,93,46.5,2.5,True
+2026-07-30,Lab A,Morning,3,3,72,24.0,0,False
+2026-07-30,Lab A,Evening,6,6,106,17.67,0,False
+2026-07-30,Lab B,Morning,2,2,77,38.5,1.61,False
+2026-07-30,Lab B,Evening,2,2,172,86.0,6.89,False
+2026-07-30,Radiology A,Morning,5,4,78,19.5,0,True
+2026-07-30,Radiology A,Evening,3,3,102,34.0,1.67,False
+2026-07-30,Radiology B,Morning,2,2,76,38.0,1.56,False
+2026-07-30,Radiology B,Evening,4,4,147,36.75,2.83,False
+2026-07-30,ECG,Morning,6,6,153,25.5,0.5,False
+2026-07-30,ECG,Evening,6,5,108,21.6,0,True
+2026-07-30,Ultrasound,Morning,3,2,135,67.5,4.83,True
+2026-07-30,Ultrasound,Evening,7,7,157,22.43,0,False
+2026-07-30,Report Hub,Morning,5,5,154,30.8,1.89,False
+2026-07-30,Report Hub,Evening,6,6,172,28.67,1.56,False
+2026-07-31,Reception,Morning,6,6,146,24.33,0.11,False
+2026-07-31,Reception,Evening,5,5,153,30.6,1.83,False
+2026-07-31,Central Billing,Morning,6,6,63,10.5,0,False
+2026-07-31,Central Billing,Evening,6,5,89,17.8,0,True
+2026-07-31,Lab A,Morning,2,2,124,62.0,4.22,False
+2026-07-31,Lab A,Evening,6,6,175,29.17,1.72,False
+2026-07-31,Lab B,Morning,2,2,152,76.0,5.78,False
+2026-07-31,Lab B,Evening,6,5,65,13.0,0,True
+2026-07-31,Radiology A,Morning,7,6,119,19.83,0,True
+2026-07-31,Radiology A,Evening,4,4,88,22.0,0,False
+2026-07-31,Radiology B,Morning,4,4,72,18.0,0,False
+2026-07-31,Radiology B,Evening,7,7,83,11.86,0,False
+2026-07-31,ECG,Morning,7,7,108,15.43,0,False
+2026-07-31,ECG,Evening,6,5,69,13.8,0,True
+2026-07-31,Ultrasound,Morning,3,3,63,21.0,0,False
+2026-07-31,Ultrasound,Evening,6,6,64,10.67,0,False
+2026-07-31,Report Hub,Morning,6,6,157,26.17,0.72,False
+2026-07-31,Report Hub,Evening,5,5,63,12.6,0,False
+2026-08-01,Reception,Morning,7,7,63,9.0,0,False
+2026-08-01,Reception,Evening,4,4,62,15.5,0,False
+2026-08-01,Central Billing,Morning,4,4,96,24.0,0,False
+2026-08-01,Central Billing,Evening,7,7,125,17.86,0,False
+2026-08-01,Lab A,Morning,2,2,65,32.5,0.94,False
+2026-08-01,Lab A,Evening,7,7,91,13.0,0,False
+2026-08-01,Lab B,Morning,5,5,94,18.8,0,False
+2026-08-01,Lab B,Evening,3,2,155,77.5,5.94,True
+2026-08-01,Radiology A,Morning,5,4,100,25.0,0.22,True
+2026-08-01,Radiology A,Evening,6,5,164,32.8,2.44,True
+2026-08-01,Radiology B,Morning,2,2,107,53.5,3.28,False
+2026-08-01,Radiology B,Evening,6,6,130,21.67,0,False
+2026-08-01,ECG,Morning,5,5,139,27.8,1.06,False
+2026-08-01,ECG,Evening,2,2,106,53.0,3.22,False
+2026-08-01,Ultrasound,Morning,5,5,71,14.2,0,False
+2026-08-01,Ultrasound,Evening,7,7,119,17.0,0,False
+2026-08-01,Report Hub,Morning,2,2,107,53.5,3.28,False
+2026-08-01,Report Hub,Evening,7,7,120,17.14,0,False
+2026-08-02,Reception,Morning,7,7,52,7.43,0,False
+2026-08-02,Reception,Evening,2,2,178,89.0,7.22,False
+2026-08-02,Central Billing,Morning,6,6,59,9.83,0,False
+2026-08-02,Central Billing,Evening,5,5,71,14.2,0,False
+2026-08-02,Lab A,Morning,4,4,164,41.0,3.78,False
+2026-08-02,Lab A,Evening,5,4,127,31.75,1.72,True
+2026-08-02,Lab B,Morning,7,7,95,13.57,0,False
+2026-08-02,Lab B,Evening,2,1,76,76.0,2.89,True
+2026-08-02,Radiology A,Morning,5,5,51,10.2,0,False
+2026-08-02,Radiology A,Evening,6,6,112,18.67,0,False
+2026-08-02,Radiology B,Morning,2,1,66,66.0,2.33,True
+2026-08-02,Radiology B,Evening,2,2,124,62.0,4.22,False
+2026-08-02,ECG,Morning,7,7,158,22.57,0,False
+2026-08-02,ECG,Evening,7,7,65,9.29,0,False
+2026-08-02,Ultrasound,Morning,7,7,46,6.57,0,False
+2026-08-02,Ultrasound,Evening,6,6,73,12.17,0,False
+2026-08-02,Report Hub,Morning,2,2,180,90.0,7.33,False
+2026-08-02,Report Hub,Evening,7,6,54,9.0,0,True
+2026-08-03,Reception,Morning,3,3,178,59.33,5.89,False
+2026-08-03,Reception,Evening,6,5,45,9.0,0,True
+2026-08-03,Central Billing,Morning,3,3,113,37.67,2.28,False
+2026-08-03,Central Billing,Evening,4,3,68,22.67,0,True
+2026-08-03,Lab A,Morning,5,4,127,31.75,1.72,True
+2026-08-03,Lab A,Evening,7,6,111,18.5,0,True
+2026-08-03,Lab B,Morning,7,7,75,10.71,0,False
+2026-08-03,Lab B,Evening,4,4,180,45.0,4.67,False
+2026-08-03,Radiology A,Morning,5,5,94,18.8,0,False
+2026-08-03,Radiology A,Evening,6,6,158,26.33,0.78,False
+2026-08-03,Radiology B,Morning,2,2,159,79.5,6.17,False
+2026-08-03,Radiology B,Evening,6,6,180,30.0,2.0,False
+2026-08-03,ECG,Morning,2,2,126,63.0,4.33,False
+2026-08-03,ECG,Evening,4,3,128,42.67,3.11,True
+2026-08-03,Ultrasound,Morning,5,4,59,14.75,0,True
+2026-08-03,Ultrasound,Evening,4,4,77,19.25,0,False
+2026-08-03,Report Hub,Morning,7,7,54,7.71,0,False
+2026-08-03,Report Hub,Evening,4,4,70,17.5,0,False
+2026-08-04,Reception,Morning,5,5,40,8.0,0,False
+2026-08-04,Reception,Evening,6,6,85,14.17,0,False
+2026-08-04,Central Billing,Morning,7,7,53,7.57,0,False
+2026-08-04,Central Billing,Evening,4,4,123,30.75,1.5,False
+2026-08-04,Lab A,Morning,2,2,63,31.5,0.83,False
+2026-08-04,Lab A,Evening,2,2,71,35.5,1.28,False
+2026-08-04,Lab B,Morning,4,4,80,20.0,0,False
+2026-08-04,Lab B,Evening,7,6,167,27.83,1.28,True
+2026-08-04,Radiology A,Morning,7,7,150,21.43,0,False
+2026-08-04,Radiology A,Evening,7,7,112,16.0,0,False
+2026-08-04,Radiology B,Morning,5,5,89,17.8,0,False
+2026-08-04,Radiology B,Evening,6,6,123,20.5,0,False
+2026-08-04,ECG,Morning,3,3,111,37.0,2.17,False
+2026-08-04,ECG,Evening,5,5,180,36.0,3.33,False
+2026-08-04,Ultrasound,Morning,4,4,94,23.5,0,False
+2026-08-04,Ultrasound,Evening,4,4,152,38.0,3.11,False
+2026-08-04,Report Hub,Morning,3,3,144,48.0,4.0,False
+2026-08-04,Report Hub,Evening,2,2,154,77.0,5.89,False
+2026-08-05,Reception,Morning,6,6,142,23.67,0,False
+2026-08-05,Reception,Evening,7,6,66,11.0,0,True
+2026-08-05,Central Billing,Morning,7,6,150,25.0,0.33,True
+2026-08-05,Central Billing,Evening,6,6,72,12.0,0,False
+2026-08-05,Lab A,Morning,7,7,159,22.71,0,False
+2026-08-05,Lab A,Evening,4,4,121,30.25,1.39,False
+2026-08-05,Lab B,Morning,2,2,141,70.5,5.17,False
+2026-08-05,Lab B,Evening,2,2,43,21.5,0,False
+2026-08-05,Radiology A,Morning,5,5,53,10.6,0,False
+2026-08-05,Radiology A,Evening,4,4,118,29.5,1.22,False
+2026-08-05,Radiology B,Morning,5,5,82,16.4,0,False
+2026-08-05,Radiology B,Evening,2,1,128,128.0,5.78,True
+2026-08-05,ECG,Morning,6,6,83,13.83,0,False
+2026-08-05,ECG,Evening,6,6,101,16.83,0,False
+2026-08-05,Ultrasound,Morning,4,3,146,48.67,4.11,True
+2026-08-05,Ultrasound,Evening,6,5,132,26.4,0.67,True
+2026-08-05,Report Hub,Morning,7,6,132,22.0,0,True
+2026-08-05,Report Hub,Evening,5,5,104,20.8,0,False
+2026-08-06,Reception,Morning,3,2,61,30.5,0.72,True
+2026-08-06,Reception,Evening,7,7,123,17.57,0,False
+2026-08-06,Central Billing,Morning,7,7,174,24.86,0.33,False
+2026-08-06,Central Billing,Evening,3,3,105,35.0,1.83,False
+2026-08-06,Lab A,Morning,6,6,84,14.0,0,False
+2026-08-06,Lab A,Evening,2,2,173,86.5,6.94,False
+2026-08-06,Lab B,Morning,3,3,141,47.0,3.83,False
+2026-08-06,Lab B,Evening,2,2,128,64.0,4.44,False
+2026-08-06,Radiology A,Morning,5,5,116,23.2,0,False
+2026-08-06,Radiology A,Evening,7,6,43,7.17,0,True
+2026-08-06,Radiology B,Morning,3,3,81,27.0,0.5,False
+2026-08-06,Radiology B,Evening,3,3,153,51.0,4.5,False
+2026-08-06,ECG,Morning,6,6,141,23.5,0,False
+2026-08-06,ECG,Evening,5,5,72,14.4,0,False
+2026-08-06,Ultrasound,Morning,4,3,148,49.33,4.22,True
+2026-08-06,Ultrasound,Evening,3,3,118,39.33,2.56,False
+2026-08-06,Report Hub,Morning,3,3,44,14.67,0,False
+2026-08-06,Report Hub,Evening,7,7,64,9.14,0,False
+2026-08-07,Reception,Morning,4,3,54,18.0,0,True
+2026-08-07,Reception,Evening,7,7,123,17.57,0,False
+2026-08-07,Central Billing,Morning,3,2,40,20.0,0,True
+2026-08-07,Central Billing,Evening,7,7,109,15.57,0,False
+2026-08-07,Lab A,Morning,3,3,81,27.0,0.5,False
+2026-08-07,Lab A,Evening,3,3,171,57.0,5.5,False
+2026-08-07,Lab B,Morning,6,6,104,17.33,0,False
+2026-08-07,Lab B,Evening,6,6,83,13.83,0,False
+2026-08-07,Radiology A,Morning,4,4,136,34.0,2.22,False
+2026-08-07,Radiology A,Evening,7,6,148,24.67,0.22,True
+2026-08-07,Radiology B,Morning,5,5,46,9.2,0,False
+2026-08-07,Radiology B,Evening,5,5,60,12.0,0,False
+2026-08-07,ECG,Morning,5,5,137,27.4,0.94,False
+2026-08-07,ECG,Evening,7,7,128,18.29,0,False
+2026-08-07,Ultrasound,Morning,3,3,158,52.67,4.78,False
+2026-08-07,Ultrasound,Evening,5,5,123,24.6,0.17,False
+2026-08-07,Report Hub,Morning,3,3,103,34.33,1.72,False
+2026-08-07,Report Hub,Evening,2,2,54,27.0,0.33,False
+2026-08-08,Reception,Morning,7,7,133,19.0,0,False
+2026-08-08,Reception,Evening,6,5,171,34.2,2.83,True
+2026-08-08,Central Billing,Morning,2,1,50,50.0,1.44,True
+2026-08-08,Central Billing,Evening,4,4,126,31.5,1.67,False
+2026-08-08,Lab A,Morning,4,4,137,34.25,2.28,False
+2026-08-08,Lab A,Evening,3,3,72,24.0,0,False
+2026-08-08,Lab B,Morning,5,5,94,18.8,0,False
+2026-08-08,Lab B,Evening,6,6,141,23.5,0,False
+2026-08-08,Radiology A,Morning,3,3,94,31.33,1.22,False
+2026-08-08,Radiology A,Evening,2,2,156,78.0,6.0,False
+2026-08-08,Radiology B,Morning,5,5,123,24.6,0.17,False
+2026-08-08,Radiology B,Evening,7,7,126,18.0,0,False
+2026-08-08,ECG,Morning,7,7,50,7.14,0,False
+2026-08-08,ECG,Evening,4,3,58,19.33,0,True
+2026-08-08,Ultrasound,Morning,7,7,43,6.14,0,False
+2026-08-08,Ultrasound,Evening,5,4,122,30.5,1.44,True
+2026-08-08,Report Hub,Morning,7,7,138,19.71,0,False
+2026-08-08,Report Hub,Evening,2,1,133,133.0,6.06,True
+2026-08-09,Reception,Morning,3,3,68,22.67,0,False
+2026-08-09,Reception,Evening,2,2,135,67.5,4.83,False
+2026-08-09,Central Billing,Morning,2,1,63,63.0,2.17,True
+2026-08-09,Central Billing,Evening,7,7,115,16.43,0,False
+2026-08-09,Lab A,Morning,2,2,151,75.5,5.72,False
+2026-08-09,Lab A,Evening,3,3,151,50.33,4.39,False
+2026-08-09,Lab B,Morning,6,6,86,14.33,0,False
+2026-08-09,Lab B,Evening,5,5,127,25.4,0.39,False
+2026-08-09,Radiology A,Morning,2,2,131,65.5,4.61,False
+2026-08-09,Radiology A,Evening,2,2,68,34.0,1.11,False
+2026-08-09,Radiology B,Morning,4,4,143,35.75,2.61,False
+2026-08-09,Radiology B,Evening,7,7,166,23.71,0,False
+2026-08-09,ECG,Morning,6,6,114,19.0,0,False
+2026-08-09,ECG,Evening,6,6,125,20.83,0,False
+2026-08-09,Ultrasound,Morning,2,1,104,104.0,4.44,True
+2026-08-09,Ultrasound,Evening,2,2,109,54.5,3.39,False
+2026-08-09,Report Hub,Morning,6,6,153,25.5,0.5,False
+2026-08-09,Report Hub,Evening,7,7,54,7.71,0,False
+2026-08-10,Reception,Morning,6,6,121,20.17,0,False
+2026-08-10,Reception,Evening,2,2,87,43.5,2.17,False
+2026-08-10,Central Billing,Morning,2,2,100,50.0,2.89,False
+2026-08-10,Central Billing,Evening,5,5,90,18.0,0,False
+2026-08-10,Lab A,Morning,6,6,56,9.33,0,False
+2026-08-10,Lab A,Evening,3,3,76,25.33,0.22,False
+2026-08-10,Lab B,Morning,3,3,144,48.0,4.0,False
+2026-08-10,Lab B,Evening,3,3,66,22.0,0,False
+2026-08-10,Radiology A,Morning,5,5,40,8.0,0,False
+2026-08-10,Radiology A,Evening,3,3,176,58.67,5.78,False
+2026-08-10,Radiology B,Morning,2,1,99,99.0,4.17,True
+2026-08-10,Radiology B,Evening,3,3,173,57.67,5.61,False
+2026-08-10,ECG,Morning,4,4,155,38.75,3.28,False
+2026-08-10,ECG,Evening,3,3,156,52.0,4.67,False
+2026-08-10,Ultrasound,Morning,7,7,71,10.14,0,False
+2026-08-10,Ultrasound,Evening,6,6,169,28.17,1.39,False
+2026-08-10,Report Hub,Morning,4,4,76,19.0,0,False
+2026-08-10,Report Hub,Evening,4,4,50,12.5,0,False
+2026-08-11,Reception,Morning,2,2,140,70.0,5.11,False
+2026-08-11,Reception,Evening,3,2,121,60.5,4.06,True
+2026-08-11,Central Billing,Morning,7,7,104,14.86,0,False
+2026-08-11,Central Billing,Evening,3,3,52,17.33,0,False
+2026-08-11,Lab A,Morning,4,3,89,29.67,0.94,True
+2026-08-11,Lab A,Evening,5,5,132,26.4,0.67,False
+2026-08-11,Lab B,Morning,3,2,179,89.5,7.28,True
+2026-08-11,Lab B,Evening,7,6,48,8.0,0,True
+2026-08-11,Radiology A,Morning,5,5,110,22.0,0,False
+2026-08-11,Radiology A,Evening,3,3,48,16.0,0,False
+2026-08-11,Radiology B,Morning,2,1,163,163.0,7.72,True
+2026-08-11,Radiology B,Evening,2,2,166,83.0,6.56,False
+2026-08-11,ECG,Morning,7,7,158,22.57,0,False
+2026-08-11,ECG,Evening,5,5,113,22.6,0,False
+2026-08-11,Ultrasound,Morning,7,7,139,19.86,0,False
+2026-08-11,Ultrasound,Evening,6,6,132,22.0,0,False
+2026-08-11,Report Hub,Morning,7,7,82,11.71,0,False
+2026-08-11,Report Hub,Evening,6,6,131,21.83,0,False
+2026-08-12,Reception,Morning,2,2,105,52.5,3.17,False
+2026-08-12,Reception,Evening,2,2,41,20.5,0,False
+2026-08-12,Central Billing,Morning,7,7,113,16.14,0,False
+2026-08-12,Central Billing,Evening,5,5,79,15.8,0,False
+2026-08-12,Lab A,Morning,4,4,153,38.25,3.17,False
+2026-08-12,Lab A,Evening,4,4,151,37.75,3.06,False
+2026-08-12,Lab B,Morning,7,6,97,16.17,0,True
+2026-08-12,Lab B,Evening,5,5,56,11.2,0,False
+2026-08-12,Radiology A,Morning,2,1,114,114.0,5.0,True
+2026-08-12,Radiology A,Evening,5,5,74,14.8,0,False
+2026-08-12,Radiology B,Morning,7,7,159,22.71,0,False
+2026-08-12,Radiology B,Evening,3,3,116,38.67,2.44,False
+2026-08-12,ECG,Morning,6,6,173,28.83,1.61,False
+2026-08-12,ECG,Evening,6,6,148,24.67,0.22,False
+2026-08-12,Ultrasound,Morning,3,2,91,45.5,2.39,True
+2026-08-12,Ultrasound,Evening,4,4,148,37.0,2.89,False
+2026-08-12,Report Hub,Morning,6,6,100,16.67,0,False
+2026-08-12,Report Hub,Evening,2,1,79,79.0,3.06,True
+2026-08-13,Reception,Morning,5,5,51,10.2,0,False
+2026-08-13,Reception,Evening,2,2,47,23.5,0,False
+2026-08-13,Central Billing,Morning,2,2,133,66.5,4.72,False
+2026-08-13,Central Billing,Evening,3,3,159,53.0,4.83,False
+2026-08-13,Lab A,Morning,5,4,50,12.5,0,True
+2026-08-13,Lab A,Evening,7,7,127,18.14,0,False
+2026-08-13,Lab B,Morning,6,5,144,28.8,1.33,True
+2026-08-13,Lab B,Evening,5,5,135,27.0,0.83,False
+2026-08-13,Radiology A,Morning,2,1,179,179.0,8.61,True
+2026-08-13,Radiology A,Evening,4,4,76,19.0,0,False
+2026-08-13,Radiology B,Morning,2,2,91,45.5,2.39,False
+2026-08-13,Radiology B,Evening,3,3,79,26.33,0.39,False
+2026-08-13,ECG,Morning,6,6,69,11.5,0,False
+2026-08-13,ECG,Evening,6,5,104,20.8,0,True
+2026-08-13,Ultrasound,Morning,3,3,146,48.67,4.11,False
+2026-08-13,Ultrasound,Evening,5,5,74,14.8,0,False
+2026-08-13,Report Hub,Morning,3,3,68,22.67,0,False
+2026-08-13,Report Hub,Evening,4,4,128,32.0,1.78,False
+2026-08-14,Reception,Morning,3,3,179,59.67,5.94,False
+2026-08-14,Reception,Evening,2,2,106,53.0,3.22,False
+2026-08-14,Central Billing,Morning,6,6,142,23.67,0,False
+2026-08-14,Central Billing,Evening,6,6,45,7.5,0,False
+2026-08-14,Lab A,Morning,4,4,49,12.25,0,False
+2026-08-14,Lab A,Evening,7,7,94,13.43,0,False
+2026-08-14,Lab B,Morning,5,5,102,20.4,0,False
+2026-08-14,Lab B,Evening,2,2,86,43.0,2.11,False
+2026-08-14,Radiology A,Morning,7,7,150,21.43,0,False
+2026-08-14,Radiology A,Evening,7,7,102,14.57,0,False
+2026-08-14,Radiology B,Morning,3,3,70,23.33,0,False
+2026-08-14,Radiology B,Evening,4,4,98,24.5,0.11,False
+2026-08-14,ECG,Morning,5,4,79,19.75,0,True
+2026-08-14,ECG,Evening,2,1,117,117.0,5.17,True
+2026-08-14,Ultrasound,Morning,3,3,145,48.33,4.06,False
+2026-08-14,Ultrasound,Evening,3,3,62,20.67,0,False
+2026-08-14,Report Hub,Morning,7,7,112,16.0,0,False
+2026-08-14,Report Hub,Evening,4,4,78,19.5,0,False

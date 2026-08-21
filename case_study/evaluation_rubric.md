@@ -1,3 +1,3 @@
-# Rubric — 100
+# Evaluation Rubric — 100
 
-Problem 10; data 15; flow 15; HR 15; finance 15; routing 10; visualization 10; recommendation 10.
+Problem 10; data 10; workflow/routing 20; billing 10; HR Operations 15; financial model 15; visualization 10; recommendation/limitations 10.

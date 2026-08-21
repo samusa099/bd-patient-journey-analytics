@@ -1,6 +1,1 @@
-from collections import defaultdict
-import heapq
-def build_graph(edges):
- g=defaultdict(list)
- for e in edges:g[e["from_node"]].append((e["to_node"],float(e["expected_walk_min"])))
- return g
+def route_score(wait_min,distance_m,service_time_min,capacity_penalty=0): return wait_min+distance_m/75+service_time_min+capacity_penalty

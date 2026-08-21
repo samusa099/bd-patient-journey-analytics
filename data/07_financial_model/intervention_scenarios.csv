@@ -1,0 +1,5 @@
+﻿scenario_code,scenario_name,implementation_cost_bdt,annual_operating_cost_bdt,wait_reduction_pct,admin_time_reduction_pct,capacity_gain_pct,annual_labor_capacity_value_bdt,annual_operational_value_bdt,annual_total_benefit_bdt,year1_net_benefit_bdt,simple_payback_years
+A,Add 10 FTE,5200000,2600000,0.2,0.1,0.08,2271827.51,2726193.01,4998020.51,-2801979.49,2.17
+B,Workflow redesign only,2500000,700000,0.38,0.35,0.45,7951396.27,15334835.67,23286231.94,20086231.94,0.11
+C,Digital identity + routing + central billing,6800000,1600000,0.58,0.55,0.62,12495051.29,21127995.81,33623047.1,25223047.1,0.21
+D,Hybrid: digital + 4 targeted FTE,8200000,2600000,0.7,0.64,0.72,14539696.04,24535737.07,39075433.11,28275433.11,0.22

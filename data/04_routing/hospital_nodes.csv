@@ -1,0 +1,14 @@
+﻿node_id,node_name,building,floor,service_type,base_capacity_per_hour
+N01,Reception,Main,1,Registration,8
+N02,Medicine OPD,Main,3,Consultation,12
+N03,Cardiology,Main,5,Consultation,8
+N04,Lab A,Diagnostic,2,Laboratory,6
+N05,Lab B,Diagnostic,4,Laboratory,5
+N06,Radiology A,Diagnostic,3,Imaging,4
+N07,Radiology B,Diagnostic,6,Imaging,3
+N08,ECG,Main,5,Cardiac Test,4
+N09,Ultrasound,Diagnostic,7,Imaging,3
+N10,Central Billing,Main,1,Billing,6
+N11,Report Hub,Main,1,Reports,5
+N12,Pharmacy,Main,1,Pharmacy,6
+N13,Exit,Main,1,Exit,99

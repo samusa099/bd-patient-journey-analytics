@@ -1,3 +1,3 @@
-# Project Charter — v0.1.0
+# Project Charter
 
-Synthetic HR Operations × healthcare operations case study. Clinician owns clinical decisions; workflow/routing/billing are operational; HRBP evaluates staffing, training, job design, productivity and ROI.
+Decision question: should management solve post-doctor patient-flow friction through staffing, process redesign, digital workflow, centralized billing/reporting, or a hybrid? HR Operations/HRBP evaluates workforce planning, job design, training, adoption, productivity and ROI.

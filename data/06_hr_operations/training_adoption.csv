@@ -1,0 +1,181 @@
+﻿employee_id,role,digital_training_hours,assessment_score,adoption_status
+EMP0001,Billing Officer,12,86,Not Yet Adopted
+EMP0002,Front Desk Officer,12,91,Adopted
+EMP0003,Operations Executive,8,72,Adopted
+EMP0004,Front Desk Officer,8,88,Adopted
+EMP0005,Operations Executive,4,72,Adopted
+EMP0006,Billing Officer,12,85,Needs Coaching
+EMP0007,Billing Officer,4,68,Adopted
+EMP0008,Front Desk Officer,12,68,Adopted
+EMP0009,Lab Coordinator,8,76,Adopted
+EMP0010,Operations Executive,4,96,Adopted
+EMP0011,Front Desk Officer,12,69,Not Yet Adopted
+EMP0012,Patient Navigator,12,98,Adopted
+EMP0013,Lab Coordinator,12,95,Adopted
+EMP0014,Lab Coordinator,12,94,Adopted
+EMP0015,Patient Navigator,8,65,Adopted
+EMP0016,Front Desk Officer,12,98,Adopted
+EMP0017,Front Desk Officer,4,74,Adopted
+EMP0018,Billing Officer,12,83,Adopted
+EMP0019,Billing Officer,6,80,Adopted
+EMP0020,Operations Executive,8,90,Adopted
+EMP0021,Front Desk Officer,8,94,Needs Coaching
+EMP0022,Operations Executive,4,93,Adopted
+EMP0023,Operations Executive,4,65,Needs Coaching
+EMP0024,Lab Coordinator,8,71,Adopted
+EMP0025,Operations Executive,12,93,Adopted
+EMP0026,Operations Executive,4,70,Adopted
+EMP0027,Lab Coordinator,12,76,Adopted
+EMP0028,Operations Executive,12,95,Adopted
+EMP0029,Front Desk Officer,8,67,Adopted
+EMP0030,Front Desk Officer,12,80,Adopted
+EMP0031,Operations Executive,4,94,Adopted
+EMP0032,Patient Navigator,8,82,Not Yet Adopted
+EMP0033,Operations Executive,12,83,Adopted
+EMP0034,Operations Executive,6,78,Adopted
+EMP0035,Patient Navigator,12,89,Adopted
+EMP0036,Lab Coordinator,4,76,Needs Coaching
+EMP0037,Lab Coordinator,6,98,Adopted
+EMP0038,Operations Executive,12,97,Not Yet Adopted
+EMP0039,Lab Coordinator,4,67,Adopted
+EMP0040,Billing Officer,12,68,Adopted
+EMP0041,Patient Navigator,12,83,Adopted
+EMP0042,Front Desk Officer,4,80,Needs Coaching
+EMP0043,Billing Officer,8,75,Adopted
+EMP0044,Front Desk Officer,8,66,Adopted
+EMP0045,Operations Executive,12,95,Adopted
+EMP0046,Operations Executive,4,75,Adopted
+EMP0047,Patient Navigator,6,65,Adopted
+EMP0048,Front Desk Officer,6,80,Adopted
+EMP0049,Patient Navigator,4,76,Adopted
+EMP0050,Operations Executive,8,97,Adopted
+EMP0051,Front Desk Officer,12,81,Adopted
+EMP0052,Operations Executive,6,77,Adopted
+EMP0053,Front Desk Officer,12,95,Adopted
+EMP0054,Billing Officer,8,70,Adopted
+EMP0055,Lab Coordinator,12,69,Adopted
+EMP0056,Billing Officer,12,96,Needs Coaching
+EMP0057,Lab Coordinator,12,84,Adopted
+EMP0058,Lab Coordinator,8,67,Adopted
+EMP0059,Operations Executive,12,78,Adopted
+EMP0060,Lab Coordinator,4,73,Needs Coaching
+EMP0061,Operations Executive,8,65,Adopted
+EMP0062,Patient Navigator,4,89,Adopted
+EMP0063,Billing Officer,12,69,Adopted
+EMP0064,Operations Executive,6,89,Adopted
+EMP0065,Patient Navigator,12,66,Adopted
+EMP0066,Operations Executive,8,84,Adopted
+EMP0067,Front Desk Officer,8,88,Needs Coaching
+EMP0068,Billing Officer,4,93,Adopted
+EMP0069,Front Desk Officer,12,98,Adopted
+EMP0070,Lab Coordinator,12,83,Adopted
+EMP0071,Lab Coordinator,6,82,Adopted
+EMP0072,Operations Executive,4,95,Adopted
+EMP0073,Lab Coordinator,6,96,Adopted
+EMP0074,Operations Executive,6,76,Adopted
+EMP0075,Front Desk Officer,12,73,Adopted
+EMP0076,Billing Officer,6,97,Adopted
+EMP0077,Billing Officer,8,91,Adopted
+EMP0078,Patient Navigator,6,91,Adopted
+EMP0079,Operations Executive,6,78,Adopted
+EMP0080,Billing Officer,4,94,Adopted
+EMP0081,Patient Navigator,8,71,Not Yet Adopted
+EMP0082,Billing Officer,4,82,Adopted
+EMP0083,Front Desk Officer,4,93,Adopted
+EMP0084,Lab Coordinator,4,76,Adopted
+EMP0085,Operations Executive,6,78,Adopted
+EMP0086,Lab Coordinator,4,79,Adopted
+EMP0087,Lab Coordinator,4,87,Adopted
+EMP0088,Billing Officer,6,83,Needs Coaching
+EMP0089,Operations Executive,4,91,Adopted
+EMP0090,Billing Officer,8,89,Adopted
+EMP0091,Operations Executive,6,70,Not Yet Adopted
+EMP0092,Front Desk Officer,6,83,Adopted
+EMP0093,Front Desk Officer,12,85,Adopted
+EMP0094,Billing Officer,8,71,Adopted
+EMP0095,Operations Executive,8,88,Adopted
+EMP0096,Patient Navigator,4,89,Needs Coaching
+EMP0097,Patient Navigator,8,80,Needs Coaching
+EMP0098,Patient Navigator,8,82,Adopted
+EMP0099,Billing Officer,8,87,Needs Coaching
+EMP0100,Billing Officer,8,71,Adopted
+EMP0101,Lab Coordinator,12,95,Adopted
+EMP0102,Front Desk Officer,4,76,Adopted
+EMP0103,Operations Executive,6,76,Adopted
+EMP0104,Lab Coordinator,12,88,Adopted
+EMP0105,Front Desk Officer,6,80,Adopted
+EMP0106,Billing Officer,4,81,Adopted
+EMP0107,Patient Navigator,8,74,Needs Coaching
+EMP0108,Billing Officer,8,83,Adopted
+EMP0109,Operations Executive,12,96,Adopted
+EMP0110,Patient Navigator,4,79,Adopted
+EMP0111,Operations Executive,8,97,Adopted
+EMP0112,Front Desk Officer,6,84,Adopted
+EMP0113,Lab Coordinator,6,75,Needs Coaching
+EMP0114,Front Desk Officer,8,92,Adopted
+EMP0115,Front Desk Officer,4,81,Adopted
+EMP0116,Billing Officer,4,97,Adopted
+EMP0117,Front Desk Officer,12,69,Adopted
+EMP0118,Lab Coordinator,4,71,Adopted
+EMP0119,Billing Officer,12,87,Adopted
+EMP0120,Patient Navigator,12,96,Adopted
+EMP0121,Operations Executive,8,94,Adopted
+EMP0122,Front Desk Officer,8,80,Adopted
+EMP0123,Operations Executive,4,91,Adopted
+EMP0124,Operations Executive,6,76,Adopted
+EMP0125,Patient Navigator,12,86,Adopted
+EMP0126,Billing Officer,12,86,Adopted
+EMP0127,Lab Coordinator,12,68,Not Yet Adopted
+EMP0128,Billing Officer,8,96,Adopted
+EMP0129,Operations Executive,12,86,Adopted
+EMP0130,Front Desk Officer,4,81,Adopted
+EMP0131,Front Desk Officer,6,66,Adopted
+EMP0132,Patient Navigator,6,92,Adopted
+EMP0133,Patient Navigator,4,90,Adopted
+EMP0134,Billing Officer,6,75,Adopted
+EMP0135,Front Desk Officer,8,83,Adopted
+EMP0136,Lab Coordinator,8,75,Adopted
+EMP0137,Patient Navigator,4,74,Adopted
+EMP0138,Front Desk Officer,6,65,Adopted
+EMP0139,Front Desk Officer,4,85,Adopted
+EMP0140,Lab Coordinator,12,72,Adopted
+EMP0141,Lab Coordinator,6,97,Adopted
+EMP0142,Billing Officer,4,82,Adopted
+EMP0143,Billing Officer,8,77,Adopted
+EMP0144,Billing Officer,6,98,Needs Coaching
+EMP0145,Front Desk Officer,8,93,Needs Coaching
+EMP0146,Billing Officer,12,90,Adopted
+EMP0147,Operations Executive,8,67,Adopted
+EMP0148,Front Desk Officer,8,91,Adopted
+EMP0149,Patient Navigator,12,66,Adopted
+EMP0150,Operations Executive,6,81,Adopted
+EMP0151,Front Desk Officer,12,98,Adopted
+EMP0152,Patient Navigator,6,98,Adopted
+EMP0153,Patient Navigator,8,97,Adopted
+EMP0154,Billing Officer,8,90,Adopted
+EMP0155,Lab Coordinator,8,92,Adopted
+EMP0156,Front Desk Officer,8,78,Adopted
+EMP0157,Patient Navigator,4,71,Not Yet Adopted
+EMP0158,Front Desk Officer,8,80,Adopted
+EMP0159,Lab Coordinator,4,77,Adopted
+EMP0160,Lab Coordinator,4,65,Needs Coaching
+EMP0161,Operations Executive,8,68,Not Yet Adopted
+EMP0162,Billing Officer,8,84,Adopted
+EMP0163,Front Desk Officer,12,76,Adopted
+EMP0164,Patient Navigator,6,75,Adopted
+EMP0165,Lab Coordinator,4,75,Adopted
+EMP0166,Lab Coordinator,4,87,Adopted
+EMP0167,Front Desk Officer,6,92,Adopted
+EMP0168,Lab Coordinator,6,90,Not Yet Adopted
+EMP0169,Front Desk Officer,6,72,Adopted
+EMP0170,Billing Officer,6,97,Adopted
+EMP0171,Patient Navigator,4,96,Not Yet Adopted
+EMP0172,Patient Navigator,12,74,Adopted
+EMP0173,Patient Navigator,4,98,Adopted
+EMP0174,Operations Executive,4,93,Needs Coaching
+EMP0175,Front Desk Officer,6,93,Adopted
+EMP0176,Billing Officer,4,85,Adopted
+EMP0177,Lab Coordinator,4,85,Adopted
+EMP0178,Operations Executive,8,83,Adopted
+EMP0179,Billing Officer,8,69,Adopted
+EMP0180,Front Desk Officer,8,75,Adopted

@@ -1,3 +1,3 @@
 # Security & Privacy
 
-Public data must remain synthetic/de-identified. Never commit credentials or real patient/biometric data. Operational AI does not replace clinical judgment.
+Never commit credentials, real patient-identifying data or real biometric templates. Public submissions must remain synthetic/de-identified. Human override and auditability are required for operational AI recommendations.

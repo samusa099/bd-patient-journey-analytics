@@ -1,25 +1,23 @@
-# Bangladesh Hospital Digital Patient Journey & HR Operations Analytics
+# BD Patient Journey Analytics
 
-Synthetic **HR Operations × HRBP × Healthcare Operations × IT × Finance × Data Analytics** portfolio project.
+**v1.0.0 — Bangladesh National Medical City (BNMC), synthetic demo**
 
-## Core principle
-**Register once → Identify once → Route intelligently → Bill centrally → Report centrally → Exit faster.**
+A portfolio-ready **HR Operations × HRBP × Healthcare Operations × IT × Finance × Data Analytics** case study.
 
-```mermaid
-flowchart LR
-    A[Check-in] --> B[Doctor]
-    B --> C[Service Orders]
-    C --> D[Workflow Engine]
-    D --> E[Front Desk Control Tower]
-    E --> F[Rules + Optimization]
-    F --> G[Service Nodes]
-    G --> H[Central Billing Ledger]
-    H --> I[Unified Report Hub]
-    I --> J[Exit]
-```
+## Core case
+After a doctor creates service orders, the hospital workflow converts them into operational tasks, sends them to a front-desk control tower, routes the patient to the right service point, consolidates billing into one encounter ledger, and centralizes report collection.
 
-## v0.1.0
-Foundation release with synthetic data, hospital graph, workflow tasks, central billing ledger, Excel starter model, Python notebooks, assignments, and GitHub submission templates.
+**Doctor → Service Orders → Front Desk Control Tower → Smart Routing → Central Billing → Report Hub & Exit**
 
-## Safety
-Public releases must use synthetic/de-identified data only. The routing layer is operational; it does not replace clinical judgment.
+## What v1.0 includes
+- synthetic identity-resolution and patient-flow datasets
+- doctor order → task workflow and human override logging
+- hospital graph, queue-aware routing and walking-distance analysis
+- centralized billing and report-hub model
+- staffing, training, job-redesign and HR Operations datasets
+- people vs process vs technology vs hybrid financial scenarios
+- predictive queue/SLA baseline
+- Excel executive workbook + 9 Python notebooks + learner challenge
+
+## Governance
+All records are synthetic. Operational AI supports routing/forecasting only; clinicians retain clinical decisions. Do not add real patient-identifying or biometric data to public submissions.
