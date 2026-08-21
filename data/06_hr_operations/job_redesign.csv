@@ -1,0 +1,181 @@
+﻿employee_id,role,manual_admin_share_before_pct,manual_admin_share_after_pct,patient_support_share_before_pct,patient_support_share_after_pct,exception_management_share_after_pct
+EMP0001,Billing Officer,72,24,23,28,25
+EMP0002,Front Desk Officer,52,20,20,43,16
+EMP0003,Operations Executive,61,19,21,27,35
+EMP0004,Front Desk Officer,68,21,16,33,30
+EMP0005,Operations Executive,70,23,16,29,25
+EMP0006,Billing Officer,74,21,21,36,17
+EMP0007,Billing Officer,69,13,12,26,28
+EMP0008,Front Desk Officer,50,15,11,34,24
+EMP0009,Lab Coordinator,50,21,13,32,29
+EMP0010,Operations Executive,58,13,17,34,33
+EMP0011,Front Desk Officer,55,8,13,29,24
+EMP0012,Patient Navigator,61,13,12,32,18
+EMP0013,Lab Coordinator,69,20,21,31,32
+EMP0014,Lab Coordinator,60,22,23,36,26
+EMP0015,Patient Navigator,68,16,10,27,16
+EMP0016,Front Desk Officer,73,8,17,45,19
+EMP0017,Front Desk Officer,58,21,13,33,18
+EMP0018,Billing Officer,50,24,25,40,16
+EMP0019,Billing Officer,74,15,13,43,27
+EMP0020,Operations Executive,47,21,13,38,22
+EMP0021,Front Desk Officer,52,18,11,26,18
+EMP0022,Operations Executive,50,22,16,33,17
+EMP0023,Operations Executive,59,24,24,34,17
+EMP0024,Lab Coordinator,47,17,24,44,21
+EMP0025,Operations Executive,69,11,13,35,24
+EMP0026,Operations Executive,74,17,13,43,20
+EMP0027,Lab Coordinator,48,11,21,37,28
+EMP0028,Operations Executive,73,13,24,29,30
+EMP0029,Front Desk Officer,73,8,16,34,17
+EMP0030,Front Desk Officer,73,23,19,26,21
+EMP0031,Operations Executive,64,14,23,45,23
+EMP0032,Patient Navigator,54,16,13,25,15
+EMP0033,Operations Executive,69,9,24,34,21
+EMP0034,Operations Executive,58,19,22,44,18
+EMP0035,Patient Navigator,69,24,11,36,19
+EMP0036,Lab Coordinator,69,23,17,41,31
+EMP0037,Lab Coordinator,62,9,14,26,16
+EMP0038,Operations Executive,72,25,14,35,25
+EMP0039,Lab Coordinator,61,22,23,31,35
+EMP0040,Billing Officer,62,19,10,26,26
+EMP0041,Patient Navigator,67,24,17,43,18
+EMP0042,Front Desk Officer,67,15,14,43,26
+EMP0043,Billing Officer,73,8,12,38,27
+EMP0044,Front Desk Officer,48,24,15,33,17
+EMP0045,Operations Executive,57,19,20,33,35
+EMP0046,Operations Executive,62,20,14,44,23
+EMP0047,Patient Navigator,66,24,18,40,24
+EMP0048,Front Desk Officer,58,24,23,37,35
+EMP0049,Patient Navigator,48,13,14,29,16
+EMP0050,Operations Executive,58,13,18,40,19
+EMP0051,Front Desk Officer,68,18,16,29,15
+EMP0052,Operations Executive,65,19,22,35,31
+EMP0053,Front Desk Officer,73,24,12,45,22
+EMP0054,Billing Officer,46,17,24,44,31
+EMP0055,Lab Coordinator,63,16,17,29,16
+EMP0056,Billing Officer,75,16,19,39,23
+EMP0057,Lab Coordinator,52,21,25,28,20
+EMP0058,Lab Coordinator,67,23,23,28,15
+EMP0059,Operations Executive,57,17,20,36,35
+EMP0060,Lab Coordinator,75,21,13,26,35
+EMP0061,Operations Executive,48,21,21,36,34
+EMP0062,Patient Navigator,58,9,20,39,24
+EMP0063,Billing Officer,67,20,11,35,24
+EMP0064,Operations Executive,68,10,24,27,18
+EMP0065,Patient Navigator,48,17,12,39,16
+EMP0066,Operations Executive,65,24,19,27,21
+EMP0067,Front Desk Officer,47,11,16,29,35
+EMP0068,Billing Officer,50,25,13,33,19
+EMP0069,Front Desk Officer,47,12,16,27,32
+EMP0070,Lab Coordinator,68,21,13,38,22
+EMP0071,Lab Coordinator,48,11,10,32,18
+EMP0072,Operations Executive,53,11,25,33,29
+EMP0073,Lab Coordinator,71,22,20,29,22
+EMP0074,Operations Executive,68,21,12,25,24
+EMP0075,Front Desk Officer,72,18,16,33,22
+EMP0076,Billing Officer,66,19,13,29,15
+EMP0077,Billing Officer,65,14,12,42,21
+EMP0078,Patient Navigator,53,22,25,31,19
+EMP0079,Operations Executive,51,19,10,43,33
+EMP0080,Billing Officer,49,12,15,40,31
+EMP0081,Patient Navigator,57,23,25,45,15
+EMP0082,Billing Officer,49,12,12,30,29
+EMP0083,Front Desk Officer,61,16,13,30,15
+EMP0084,Lab Coordinator,68,16,20,31,33
+EMP0085,Operations Executive,55,8,14,31,23
+EMP0086,Lab Coordinator,55,16,24,28,30
+EMP0087,Lab Coordinator,66,24,16,37,28
+EMP0088,Billing Officer,50,25,15,43,23
+EMP0089,Operations Executive,69,22,16,27,18
+EMP0090,Billing Officer,66,22,10,45,15
+EMP0091,Operations Executive,65,15,10,40,22
+EMP0092,Front Desk Officer,64,25,24,28,21
+EMP0093,Front Desk Officer,46,14,23,26,17
+EMP0094,Billing Officer,65,24,12,40,23
+EMP0095,Operations Executive,74,14,17,35,15
+EMP0096,Patient Navigator,66,25,10,29,22
+EMP0097,Patient Navigator,47,25,17,45,15
+EMP0098,Patient Navigator,58,20,14,33,35
+EMP0099,Billing Officer,60,18,22,27,32
+EMP0100,Billing Officer,50,13,25,36,29
+EMP0101,Lab Coordinator,71,19,14,42,22
+EMP0102,Front Desk Officer,65,14,12,29,15
+EMP0103,Operations Executive,55,20,12,40,31
+EMP0104,Lab Coordinator,47,17,20,40,35
+EMP0105,Front Desk Officer,45,16,22,39,21
+EMP0106,Billing Officer,62,17,13,27,26
+EMP0107,Patient Navigator,68,8,15,33,27
+EMP0108,Billing Officer,74,9,13,27,16
+EMP0109,Operations Executive,63,23,15,31,19
+EMP0110,Patient Navigator,53,13,17,39,29
+EMP0111,Operations Executive,68,18,24,35,26
+EMP0112,Front Desk Officer,48,19,11,40,23
+EMP0113,Lab Coordinator,55,16,20,40,31
+EMP0114,Front Desk Officer,67,20,24,34,15
+EMP0115,Front Desk Officer,51,13,11,28,19
+EMP0116,Billing Officer,59,12,16,42,25
+EMP0117,Front Desk Officer,62,8,16,34,19
+EMP0118,Lab Coordinator,59,24,21,43,21
+EMP0119,Billing Officer,55,16,15,25,16
+EMP0120,Patient Navigator,67,24,23,28,16
+EMP0121,Operations Executive,50,24,16,35,18
+EMP0122,Front Desk Officer,47,15,20,41,35
+EMP0123,Operations Executive,70,14,16,38,18
+EMP0124,Operations Executive,60,25,22,26,20
+EMP0125,Patient Navigator,49,19,12,36,27
+EMP0126,Billing Officer,74,8,23,37,19
+EMP0127,Lab Coordinator,75,23,18,25,27
+EMP0128,Billing Officer,72,23,24,34,25
+EMP0129,Operations Executive,68,24,25,37,29
+EMP0130,Front Desk Officer,48,14,25,43,30
+EMP0131,Front Desk Officer,46,13,11,39,22
+EMP0132,Patient Navigator,73,23,13,40,29
+EMP0133,Patient Navigator,61,11,19,44,26
+EMP0134,Billing Officer,55,20,10,41,26
+EMP0135,Front Desk Officer,63,9,12,44,15
+EMP0136,Lab Coordinator,47,21,11,45,27
+EMP0137,Patient Navigator,50,19,19,34,15
+EMP0138,Front Desk Officer,74,19,16,36,26
+EMP0139,Front Desk Officer,75,13,16,29,25
+EMP0140,Lab Coordinator,69,15,23,43,25
+EMP0141,Lab Coordinator,66,24,16,42,15
+EMP0142,Billing Officer,45,22,18,45,15
+EMP0143,Billing Officer,62,19,20,35,26
+EMP0144,Billing Officer,69,17,21,43,30
+EMP0145,Front Desk Officer,68,13,20,25,32
+EMP0146,Billing Officer,56,24,20,25,26
+EMP0147,Operations Executive,57,25,14,29,23
+EMP0148,Front Desk Officer,69,10,14,45,27
+EMP0149,Patient Navigator,66,17,21,25,19
+EMP0150,Operations Executive,63,21,21,30,26
+EMP0151,Front Desk Officer,53,9,12,43,15
+EMP0152,Patient Navigator,47,8,24,40,20
+EMP0153,Patient Navigator,68,13,14,38,21
+EMP0154,Billing Officer,58,14,23,45,18
+EMP0155,Lab Coordinator,64,10,12,43,33
+EMP0156,Front Desk Officer,68,14,12,41,30
+EMP0157,Patient Navigator,54,23,24,30,34
+EMP0158,Front Desk Officer,45,9,13,31,32
+EMP0159,Lab Coordinator,73,16,21,33,33
+EMP0160,Lab Coordinator,72,8,23,28,25
+EMP0161,Operations Executive,75,23,16,32,18
+EMP0162,Billing Officer,74,8,10,32,19
+EMP0163,Front Desk Officer,73,25,13,25,32
+EMP0164,Patient Navigator,66,18,13,32,32
+EMP0165,Lab Coordinator,58,15,16,29,31
+EMP0166,Lab Coordinator,68,24,19,27,16
+EMP0167,Front Desk Officer,46,13,12,45,31
+EMP0168,Lab Coordinator,56,20,22,30,35
+EMP0169,Front Desk Officer,52,15,16,33,30
+EMP0170,Billing Officer,55,13,17,34,15
+EMP0171,Patient Navigator,46,25,24,29,16
+EMP0172,Patient Navigator,54,8,22,31,20
+EMP0173,Patient Navigator,60,12,21,25,27
+EMP0174,Operations Executive,57,10,20,42,33
+EMP0175,Front Desk Officer,65,18,12,31,24
+EMP0176,Billing Officer,58,18,13,25,15
+EMP0177,Lab Coordinator,65,10,17,29,30
+EMP0178,Operations Executive,45,13,17,37,21
+EMP0179,Billing Officer,53,16,16,25,34
+EMP0180,Front Desk Officer,69,20,20,45,17

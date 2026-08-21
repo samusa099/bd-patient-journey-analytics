@@ -1,0 +1,34 @@
+﻿edge_id,from_node,to_node,from_name,to_name,distance_m,walk_min,bidirectional
+E001,N01,N02,Reception,Medicine OPD,180,2.4,True
+E002,N01,N03,Reception,Cardiology,220,2.93,True
+E003,N02,N04,Medicine OPD,Lab A,220,2.93,True
+E004,N02,N05,Medicine OPD,Lab B,310,4.13,True
+E005,N02,N06,Medicine OPD,Radiology A,260,3.47,True
+E006,N02,N08,Medicine OPD,ECG,180,2.4,True
+E007,N02,N09,Medicine OPD,Ultrasound,420,5.6,True
+E008,N03,N04,Cardiology,Lab A,260,3.47,True
+E009,N03,N05,Cardiology,Lab B,210,2.8,True
+E010,N03,N06,Cardiology,Radiology A,240,3.2,True
+E011,N03,N08,Cardiology,ECG,80,1.07,True
+E012,N03,N09,Cardiology,Ultrasound,330,4.4,True
+E013,N04,N05,Lab A,Lab B,160,2.13,True
+E014,N04,N06,Lab A,Radiology A,120,1.6,True
+E015,N04,N08,Lab A,ECG,210,2.8,True
+E016,N04,N09,Lab A,Ultrasound,280,3.73,True
+E017,N05,N07,Lab B,Radiology B,110,1.47,True
+E018,N05,N08,Lab B,ECG,130,1.73,True
+E019,N05,N09,Lab B,Ultrasound,180,2.4,True
+E020,N06,N07,Radiology A,Radiology B,210,2.8,True
+E021,N06,N08,Radiology A,ECG,150,2.0,True
+E022,N07,N09,Radiology B,Ultrasound,90,1.2,True
+E023,N08,N09,ECG,Ultrasound,170,2.27,True
+E024,N04,N10,Lab A,Central Billing,260,3.47,True
+E025,N05,N10,Lab B,Central Billing,330,4.4,True
+E026,N06,N10,Radiology A,Central Billing,280,3.73,True
+E027,N07,N10,Radiology B,Central Billing,390,5.2,True
+E028,N08,N10,ECG,Central Billing,210,2.8,True
+E029,N09,N10,Ultrasound,Central Billing,420,5.6,True
+E030,N10,N11,Central Billing,Report Hub,60,0.8,True
+E031,N11,N12,Report Hub,Pharmacy,70,0.93,True
+E032,N12,N13,Pharmacy,Exit,45,0.6,True
+E033,N11,N13,Report Hub,Exit,40,0.53,True

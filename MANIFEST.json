@@ -1,13 +1,18 @@
 {
-  "version": "0.1.0",
+  "project": "BD Patient Journey Analytics",
+  "demo_hospital": "Bangladesh National Medical City (BNMC)",
+  "version": "1.0.0",
+  "release_date": "2026-08-21",
   "synthetic_only": true,
   "counts": {
-    "patients": 1200,
-    "encounters": 1800,
-    "service_orders": 4350,
-    "workflow_tasks": 4350,
-    "queue_events": 4350,
-    "billing_rows": 4350,
-    "staff_shift_rows": 224
+    "patients": 2500,
+    "identity_search_events": 4996,
+    "encounters": 5000,
+    "service_orders": 13790,
+    "workflow_tasks": 13790,
+    "routing_decisions": 13790,
+    "billing_rows": 13790,
+    "staff_shift_rows": 810,
+    "predictive_rows": 13790
   }
 }

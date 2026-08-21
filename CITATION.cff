@@ -1,6 +1,8 @@
 cff-version: 1.2.0
-title: "Bangladesh Hospital Digital Patient Journey & HR Operations Analytics"
-version: 0.1.0
+title: "BD Patient Journey Analytics"
+message: "Please cite this project if reused."
+version: 1.0.0
+date-released: 2026-08-21
 authors:
   - family-names: "Musa"
     given-names: "Musa"

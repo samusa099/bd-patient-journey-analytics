@@ -1,0 +1,242 @@
+﻿table,field,data_type,description,synthetic_data,privacy_note
+data/08_predictive_operations/predictive_queue_features.csv,record_id,text,Record Id,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,location,text,Location,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,hour,number,Hour,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,day_of_week,number,Day Of Week,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,active_staff,number,Active Staff,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,arrivals_last_30m,number,Arrivals Last 30M,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,recent_avg_wait_min,number,Recent Avg Wait Min,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,predicted_wait_min,number,Predicted Wait Min,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,predicted_sla_breach,text,Predicted Sla Breach,Yes,No real patient/employee identity in public dataset
+data/08_predictive_operations/predictive_queue_features.csv,actual_wait_min,number,Actual Wait Min,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/job_redesign.csv,employee_id,text,Employee Id,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/job_redesign.csv,role,text,Role,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/job_redesign.csv,manual_admin_share_before_pct,number,Manual Admin Share Before Pct,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/job_redesign.csv,manual_admin_share_after_pct,number,Manual Admin Share After Pct,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/job_redesign.csv,patient_support_share_before_pct,number,Patient Support Share Before Pct,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/job_redesign.csv,patient_support_share_after_pct,number,Patient Support Share After Pct,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/job_redesign.csv,exception_management_share_after_pct,number,Exception Management Share After Pct,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,date,text,Date,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,location,text,Location,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,shift,text,Shift,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,scheduled_staff,number,Scheduled Staff,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,active_staff,number,Active Staff,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,patient_demand,number,Patient Demand,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,patients_per_active_staff,number,Patients Per Active Staff,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,overtime_hours,number,Overtime Hours,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/staff_shifts.csv,absence_flag,text,Absence Flag,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/training_adoption.csv,employee_id,text,Employee Id,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/training_adoption.csv,role,text,Role,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/training_adoption.csv,digital_training_hours,number,Digital Training Hours,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/training_adoption.csv,assessment_score,number,Assessment Score,Yes,No real patient/employee identity in public dataset
+data/06_hr_operations/training_adoption.csv,adoption_status,text,Adoption Status,Yes,No real patient/employee identity in public dataset
+data/data_dictionary/data_dictionary.csv,table,text,Table,Yes,No real patient/employee identity in public dataset
+data/data_dictionary/data_dictionary.csv,field,text,Field,Yes,No real patient/employee identity in public dataset
+data/data_dictionary/data_dictionary.csv,type,text,Type,Yes,No real patient/employee identity in public dataset
+data/data_dictionary/data_dictionary.csv,description,text,Description,Yes,No real patient/employee identity in public dataset
+data/data_dictionary/data_dictionary.csv,privacy_class,text,Privacy Class,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,ledger_id,text,Ledger Id,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,order_id,text,Order Id,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,service_name,text,Service Name,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,department,text,Department,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,gross_charge_bdt,number,Gross Charge Bdt,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,discount_bdt,number,Discount Bdt,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,covered_bdt,number,Covered Bdt,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,patient_payable_bdt,number,Patient Payable Bdt,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,billing_mode,text,Billing Mode,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/billing_ledger.csv,settlement_status,text,Settlement Status,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/report_status.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/report_status.csv,order_id,text,Order Id,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/report_status.csv,service_name,text,Service Name,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/report_status.csv,result_status,text,Result Status,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/report_status.csv,ready_ts,text,Ready Ts,Yes,No real patient/employee identity in public dataset
+data/05_billing_reports/report_status.csv,delivery_channel,text,Delivery Channel,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/encounters.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/encounters.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/encounters.csv,arrival_ts,text,Arrival Ts,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/encounters.csv,doctor_department,text,Doctor Department,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/encounters.csv,identity_method,text,Identity Method,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/encounters.csv,ordered_services,number,Ordered Services,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/encounters.csv,status,text,Status,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/patients.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/patients.csv,canonical_name,text,Canonical Name,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/patients.csv,dob,text,Dob,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/patients.csv,sex,text,Sex,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/patients.csv,phone_last4,number,Phone Last4,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/patients.csv,district,text,District,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/patients.csv,preferred_identity_token,text,Preferred Identity Token,Yes,No real patient/employee identity in public dataset
+data/01_raw_synthetic/patients.csv,synthetic,text,Synthetic,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,search_id,text,Search Id,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,query_name,text,Query Name,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,search_method,text,Search Method,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,similarity_score,number,Similarity Score,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,phone_last4_match,text,Phone Last4 Match,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,dob_match,text,Dob Match,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,first_search_success,text,First Search Success,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,search_time_sec,number,Search Time Sec,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_search_events.csv,manual_intervention,text,Manual Intervention,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_name_variants.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_name_variants.csv,variant_name,text,Variant Name,Yes,No real patient/employee identity in public dataset
+data/02_identity_resolution/identity_name_variants.csv,variant_type,text,Variant Type,Yes,No real patient/employee identity in public dataset
+data/03_workflow/front_desk_control_tower.csv,task_id,text,Task Id,Yes,No real patient/employee identity in public dataset
+data/03_workflow/front_desk_control_tower.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/03_workflow/front_desk_control_tower.csv,displayed_to_front_desk,text,Displayed To Front Desk,Yes,No real patient/employee identity in public dataset
+data/03_workflow/front_desk_control_tower.csv,front_desk_action,text,Front Desk Action,Yes,No real patient/employee identity in public dataset
+data/03_workflow/front_desk_control_tower.csv,action_delay_sec,number,Action Delay Sec,Yes,No real patient/employee identity in public dataset
+data/03_workflow/front_desk_control_tower.csv,exception_reason,text,Exception Reason,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,order_id,text,Order Id,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,sequence,number,Sequence,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,service_name,text,Service Name,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,service_category,text,Service Category,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,clinical_priority,text,Clinical Priority,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,ordered_ts,text,Ordered Ts,Yes,No real patient/employee identity in public dataset
+data/03_workflow/service_orders.csv,order_status,text,Order Status,Yes,No real patient/employee identity in public dataset
+data/03_workflow/workflow_tasks.csv,task_id,text,Task Id,Yes,No real patient/employee identity in public dataset
+data/03_workflow/workflow_tasks.csv,order_id,text,Order Id,Yes,No real patient/employee identity in public dataset
+data/03_workflow/workflow_tasks.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/03_workflow/workflow_tasks.csv,task_type,text,Task Type,Yes,No real patient/employee identity in public dataset
+data/03_workflow/workflow_tasks.csv,task_status,text,Task Status,Yes,No real patient/employee identity in public dataset
+data/03_workflow/workflow_tasks.csv,assigned_location,text,Assigned Location,Yes,No real patient/employee identity in public dataset
+data/03_workflow/workflow_tasks.csv,priority,text,Priority,Yes,No real patient/employee identity in public dataset
+data/03_workflow/workflow_tasks.csv,routing_method,text,Routing Method,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_edges.csv,edge_id,text,Edge Id,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_edges.csv,from_node,text,From Node,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_edges.csv,to_node,text,To Node,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_edges.csv,from_name,text,From Name,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_edges.csv,to_name,text,To Name,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_edges.csv,distance_m,number,Distance M,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_edges.csv,walk_min,number,Walk Min,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_edges.csv,bidirectional,text,Bidirectional,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,routing_id,text,Routing Id,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,task_id,text,Task Id,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,from_location,text,From Location,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,recommended_location,text,Recommended Location,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,selected_location,text,Selected Location,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,recommended_score,number,Recommended Score,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,selected_score,number,Selected Score,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,predicted_wait_min,number,Predicted Wait Min,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,distance_m,number,Distance M,Yes,No real patient/employee identity in public dataset
+data/04_routing/routing_decisions.csv,human_override,text,Human Override,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_nodes.csv,node_id,text,Node Id,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_nodes.csv,node_name,text,Node Name,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_nodes.csv,building,text,Building,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_nodes.csv,floor,number,Floor,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_nodes.csv,service_type,text,Service Type,Yes,No real patient/employee identity in public dataset
+data/04_routing/hospital_nodes.csv,base_capacity_per_hour,number,Base Capacity Per Hour,Yes,No real patient/employee identity in public dataset
+data/04_routing/queue_events.csv,queue_event_id,text,Queue Event Id,Yes,No real patient/employee identity in public dataset
+data/04_routing/queue_events.csv,task_id,text,Task Id,Yes,No real patient/employee identity in public dataset
+data/04_routing/queue_events.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/04_routing/queue_events.csv,location,text,Location,Yes,No real patient/employee identity in public dataset
+data/04_routing/queue_events.csv,queue_wait_min,number,Queue Wait Min,Yes,No real patient/employee identity in public dataset
+data/04_routing/queue_events.csv,service_time_min,number,Service Time Min,Yes,No real patient/employee identity in public dataset
+data/04_routing/queue_events.csv,sla_breach,text,Sla Breach,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/encounters.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/encounters.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/encounters.csv,arrival_ts,text,Arrival Ts,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/encounters.csv,doctor_department,text,Doctor Department,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/encounters.csv,ordered_service_count,number,Ordered Service Count,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/encounters.csv,status,text,Status,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/service_orders.csv,order_id,text,Order Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/service_orders.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/service_orders.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/service_orders.csv,service_name,text,Service Name,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/service_orders.csv,service_category,text,Service Category,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/service_orders.csv,ordered_ts,text,Ordered Ts,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/service_orders.csv,clinical_priority,text,Clinical Priority,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/service_orders.csv,order_status,text,Order Status,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_edges.csv,edge_id,text,Edge Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_edges.csv,from_node,text,From Node,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_edges.csv,to_node,text,To Node,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_edges.csv,distance_m,number,Distance M,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_edges.csv,expected_walk_min,number,Expected Walk Min,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_edges.csv,bidirectional,text,Bidirectional,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/staff_shifts.csv,date,text,Date,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/staff_shifts.csv,location,text,Location,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/staff_shifts.csv,shift,text,Shift,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/staff_shifts.csv,scheduled_staff,number,Scheduled Staff,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/staff_shifts.csv,active_staff,number,Active Staff,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/staff_shifts.csv,training_band,text,Training Band,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/patients.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/patients.csv,age_band,text,Age Band,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/patients.csv,sex,text,Sex,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/patients.csv,identity_method,text,Identity Method,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/patients.csv,synthetic,text,Synthetic,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_nodes.csv,node_id,text,Node Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_nodes.csv,node_name,text,Node Name,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_nodes.csv,building,text,Building,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_nodes.csv,floor,number,Floor,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/hospital_nodes.csv,service_type,text,Service Type,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,ledger_id,text,Ledger Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,service_name,text,Service Name,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,department,text,Department,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,gross_charge_bdt,number,Gross Charge Bdt,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,discount_bdt,number,Discount Bdt,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,patient_payable_bdt,number,Patient Payable Bdt,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,billing_mode,text,Billing Mode,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/billing_ledger.csv,payment_status,text,Payment Status,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/workflow_tasks.csv,task_id,text,Task Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/workflow_tasks.csv,order_id,text,Order Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/workflow_tasks.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/workflow_tasks.csv,assigned_location,text,Assigned Location,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/workflow_tasks.csv,task_status,text,Task Status,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/workflow_tasks.csv,routing_method,text,Routing Method,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/workflow_tasks.csv,estimated_wait_min,number,Estimated Wait Min,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/workflow_tasks.csv,actual_wait_min,number,Actual Wait Min,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/queue_events.csv,queue_event_id,text,Queue Event Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/queue_events.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/queue_events.csv,service_name,text,Service Name,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/queue_events.csv,location,text,Location,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/queue_events.csv,queue_wait_min,number,Queue Wait Min,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/queue_events.csv,service_time_min,number,Service Time Min,Yes,No real patient/employee identity in public dataset
+data/raw_synthetic/queue_events.csv,sla_breach,text,Sla Breach,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,scenario_code,text,Scenario Code,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,scenario_name,text,Scenario Name,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,implementation_cost_bdt,number,Implementation Cost Bdt,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,annual_operating_cost_bdt,number,Annual Operating Cost Bdt,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,wait_reduction_pct,number,Wait Reduction Pct,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,admin_time_reduction_pct,number,Admin Time Reduction Pct,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,capacity_gain_pct,number,Capacity Gain Pct,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,annual_labor_capacity_value_bdt,number,Annual Labor Capacity Value Bdt,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,annual_operational_value_bdt,number,Annual Operational Value Bdt,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,annual_total_benefit_bdt,number,Annual Total Benefit Bdt,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,year1_net_benefit_bdt,text,Year1 Net Benefit Bdt,Yes,No real patient/employee identity in public dataset
+data/07_financial_model/intervention_scenarios.csv,simple_payback_years,number,Simple Payback Years,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_kpis.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_kpis.csv,admin_minutes_saved,number,Admin Minutes Saved,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_kpis.csv,payment_touchpoints_saved,number,Payment Touchpoints Saved,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_kpis.csv,walking_m_saved,number,Walking M Saved,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_kpis.csv,service_queue_min,number,Service Queue Min,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_kpis.csv,routing_overrides,number,Routing Overrides,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_kpis.csv,total_payable_bdt,number,Total Payable Bdt,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,service_count,number,Service Count,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,baseline_registration_min,number,Baseline Registration Min,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,digital_registration_min,number,Digital Registration Min,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,baseline_payment_touchpoints,number,Baseline Payment Touchpoints,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,centralized_payment_touchpoints,number,Centralized Payment Touchpoints,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,baseline_admin_min,number,Baseline Admin Min,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,redesigned_admin_min,number,Redesigned Admin Min,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,baseline_walking_m,number,Baseline Walking M,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,redesigned_walking_m,number,Redesigned Walking M,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,service_queue_min,number,Service Queue Min,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,human_routing_overrides,number,Human Routing Overrides,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,total_payable_bdt,number,Total Payable Bdt,Yes,No real patient/employee identity in public dataset
+data/09_analysis_ready/journey_summary.csv,all_reports_ready_ts,text,All Reports Ready Ts,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,encounter_id,text,Encounter Id,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,patient_id,text,Patient Id,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,service_count,number,Service Count,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,baseline_payment_touchpoints,number,Baseline Payment Touchpoints,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,centralized_payment_touchpoints,number,Centralized Payment Touchpoints,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,baseline_admin_minutes,number,Baseline Admin Minutes,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,redesigned_admin_minutes,number,Redesigned Admin Minutes,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,baseline_walking_m,number,Baseline Walking M,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,redesigned_walking_m,number,Redesigned Walking M,Yes,No real patient/employee identity in public dataset
+data/processed/journey_summary.csv,total_payable_bdt,number,Total Payable Bdt,Yes,No real patient/employee identity in public dataset

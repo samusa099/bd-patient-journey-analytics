@@ -4,3 +4,5 @@ body:
     id: solution
     attributes:
       label: Proposed solution
+    validations:
+      required: true

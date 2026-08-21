@@ -1,0 +1,19 @@
+{
+  "title": "BD Patient Journey Analytics - Synthetic",
+  "id": "REPLACE_KAGGLE_USERNAME/bd-patient-journey-analytics",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "healthcare",
+    "hr-analytics",
+    "operations",
+    "synthetic-data",
+    "patient-flow",
+    "queue",
+    "excel",
+    "python"
+  ]
+}

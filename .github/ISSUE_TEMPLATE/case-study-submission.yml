@@ -1,5 +1,5 @@
 name: Case Study Submission
-description: Submit a completed analysis
+description: Submit a reproducible solution
 title: "[CASE] "
 body:
   - type: textarea
@@ -8,3 +8,10 @@ body:
       label: Executive summary
     validations:
       required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I used synthetic/de-identified data only.
+          required: true

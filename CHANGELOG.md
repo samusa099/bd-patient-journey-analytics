@@ -1,4 +1,4 @@
 # Changelog
 
-## v0.1.0
-Foundation synthetic datasets, hospital graph, Excel starter, notebooks, assignments and submission templates.
+## v1.0.0 — 2026-08-21
+Integrated identity, workflow, routing, billing, HR Operations, financial modelling, predictive operations and learner challenge.

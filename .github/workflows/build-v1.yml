@@ -1,0 +1,49 @@
+name: Validate v1.0.0 Project
+
+on:
+  push:
+    branches:
+      - v1.0.0-build
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate v1.0.0 package
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, zipfile
+          root=Path('.')
+          required=['README.md','LICENSE','DATA_LICENSE.md','MANIFEST.json','excel/Hospital_Digital_Patient_Journey_HR_Operations_v1.0.xlsx','data/09_analysis_ready/journey_summary.csv','kaggle/dataset-metadata.json']
+          errors=[]
+          for rel in required:
+              p=root/rel
+              if not p.exists() or p.stat().st_size==0:
+                  errors.append(f'missing/empty: {rel}')
+          m=json.loads((root/'MANIFEST.json').read_text())
+          if m.get('version')!='1.0.0': errors.append('manifest version is not 1.0.0')
+          if not m.get('synthetic_only'): errors.append('manifest synthetic_only is false')
+          if not zipfile.is_zipfile(root/'excel/Hospital_Digital_Patient_Journey_HR_Operations_v1.0.xlsx'):
+              errors.append('invalid xlsx container')
+          with open(root/'data/09_analysis_ready/journey_summary.csv',encoding='utf-8-sig') as f:
+              if sum(1 for _ in f)<1000: errors.append('journey dataset unexpectedly small')
+          if errors:
+              print('\n'.join(errors)); raise SystemExit(1)
+          print('PASS: v1.0.0 package validated')
+          PY

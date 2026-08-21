@@ -1,0 +1,64 @@
+name: Publish Kaggle Dataset
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Kaggle publication gates
+        env:
+          KAGGLE_JSON: ${{ secrets.KAGGLE_JSON }}
+        run: |
+          if [ -z "$KAGGLE_JSON" ]; then
+            echo "::error::KAGGLE_JSON repository secret is missing."
+            exit 1
+          fi
+          python - <<'PY'
+          import json
+          p='kaggle/dataset-metadata.json'
+          m=json.load(open(p))
+          dataset_id=m.get('id','')
+          if 'REPLACE_' in dataset_id or '/' not in dataset_id:
+              raise SystemExit('Kaggle dataset id still contains a placeholder; set the real username/slug before publishing.')
+          print('Kaggle metadata gate passed:', dataset_id)
+          PY
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Kaggle CLI
+        run: pip install kaggle
+
+      - name: Configure Kaggle credentials
+        env:
+          KAGGLE_JSON: ${{ secrets.KAGGLE_JSON }}
+        run: |
+          mkdir -p ~/.kaggle
+          printf '%s' "$KAGGLE_JSON" > ~/.kaggle/kaggle.json
+          chmod 600 ~/.kaggle/kaggle.json
+
+      - name: Build clean Kaggle package
+        run: |
+          rm -rf kaggle_dist
+          mkdir -p kaggle_dist
+          cp kaggle/dataset-metadata.json kaggle_dist/dataset-metadata.json
+          cp README.md DATA_PROVENANCE.md DATASET_USAGE_GUIDE.md DATA_LICENSE.md kaggle_dist/
+          cp -R data data_dictionary notebooks case_study competition excel kaggle_dist/
+
+      - name: Publish Kaggle dataset version
+        run: |
+          if kaggle datasets status -p kaggle_dist >/dev/null 2>&1; then
+            kaggle datasets version -p kaggle_dist -m "v1.0.0 GitHub release"
+          else
+            kaggle datasets create -p kaggle_dist
+          fi
