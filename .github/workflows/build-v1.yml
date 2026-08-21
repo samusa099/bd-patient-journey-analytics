@@ -33,7 +33,7 @@ jobs:
 
       - name: Decode v1 generator
         run: |
-          base64 -d scripts/build_v1_fixed.py.gz.b64 | gzip -d > scripts/build_v1.py
+          cat scripts/v1part00.b64 scripts/v1part01.b64 scripts/v1part02.b64 scripts/v1part03.b64 | base64 -d | gzip -d > scripts/build_v1.py
 
       - name: Build v1.0.0
         run: python scripts/build_v1.py
@@ -60,8 +60,8 @@ jobs:
           print('PASS: v1.0.0 build validated')
           PY
 
-      - name: Remove compressed generators from release tree
-        run: rm -f scripts/build_v1.py.gz.b64 scripts/build_v1_fixed.py.gz.b64
+      - name: Remove generator transport files from release tree
+        run: rm -f scripts/build_v1.py.gz.b64 scripts/build_v1_fixed.py.gz.b64 scripts/v1part*.b64
 
       - name: Commit generated project
         if: github.event_name != 'pull_request'
