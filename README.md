@@ -44,24 +44,68 @@ This project models a different operating design: the **doctor remains responsib
 
 ## 🔄 Target patient journey
 
+The diagram separates the journey into four operational phases so the main patient path, routing inputs and human override are visually distinct.
+
 ```mermaid
 flowchart LR
-    A[Doctor consultation] --> B[Service orders]
-    B --> C[Front-desk control tower]
-    C --> D[Order validation and task creation]
-    D --> E[Smart routing engine]
-    E --> F1[Lab]
-    E --> F2[Imaging]
-    E --> F3[Other test / service units]
-    F1 --> G[Real-time task status]
-    F2 --> G
-    F3 --> G
-    G --> H[Centralized encounter billing]
-    H --> I[Report hub]
-    I --> J[Journey completion / exit]
+    subgraph P1["1 · Clinical decision"]
+        direction TB
+        DOC(["Doctor<br/>consultation"])
+        ORD["Service<br/>orders"]
+        DOC --> ORD
+    end
 
-    C -. human override .-> E
-    E -. queue + capacity + distance + priority .-> F1
+    subgraph P2["2 · Operations control"]
+        direction TB
+        FD["Front-desk<br/>control tower"]
+        VAL["Validate orders<br/>& create tasks"]
+        ROUTE{"AI-assisted<br/>routing"}
+        FD --> VAL --> ROUTE
+    end
+
+    subgraph P3["3 · Service delivery"]
+        direction TB
+        LAB["Lab"]
+        IMG["Imaging"]
+        TEST["Other test /<br/>service units"]
+        STATUS["Real-time<br/>task status"]
+        LAB --> STATUS
+        IMG --> STATUS
+        TEST --> STATUS
+    end
+
+    subgraph P4["4 · Billing & completion"]
+        direction TB
+        BILL["Centralized<br/>encounter billing"]
+        REPORT[("Report hub")]
+        EXIT(["Journey complete<br/>& exit"])
+        BILL --> REPORT --> EXIT
+    end
+
+    SIGNALS[["Routing signals<br/>capacity · queue · distance · priority"]]
+
+    ORD --> FD
+    ROUTE -->|best-fit service| LAB
+    ROUTE -->|best-fit service| IMG
+    ROUTE -->|best-fit service| TEST
+    STATUS --> BILL
+
+    SIGNALS -. operational context .-> ROUTE
+    FD -. human override .-> ROUTE
+
+    classDef clinical fill:#EFF6FF,stroke:#2563EB,color:#0F172A,stroke-width:2px;
+    classDef control fill:#ECFEFF,stroke:#0891B2,color:#0F172A,stroke-width:2px;
+    classDef decision fill:#F5F3FF,stroke:#7C3AED,color:#2E1065,stroke-width:2px;
+    classDef service fill:#ECFDF5,stroke:#059669,color:#052E16,stroke-width:2px;
+    classDef shared fill:#FFF7ED,stroke:#EA580C,color:#431407,stroke-width:2px;
+    classDef signal fill:#F8FAFC,stroke:#64748B,color:#334155,stroke-width:1.5px,stroke-dasharray:5 4;
+
+    class DOC,ORD clinical;
+    class FD,VAL control;
+    class ROUTE decision;
+    class LAB,IMG,TEST,STATUS service;
+    class BILL,REPORT,EXIT shared;
+    class SIGNALS signal;
 ```
 
 ### Core concept
@@ -198,60 +242,89 @@ The repository contains an end-to-end analytics learning path rather than a sing
 
 ## 🧩 Operating architecture
 
+This view separates the **operational execution path** from the **analytics and management layer**, making the role of each data feed easier to follow.
+
 ```mermaid
 flowchart TB
-    subgraph Clinical[Clinical layer]
-        DOC[Doctor]
-        ORDER[Service orders]
-        DOC --> ORDER
+    subgraph EXEC["Operational execution path"]
+        direction TB
+
+        subgraph CLIN["Clinical layer"]
+            direction LR
+            DOC2(["Doctor"])
+            ORDER2["Service<br/>orders"]
+            DOC2 --> ORDER2
+        end
+
+        subgraph OPS["Operations control layer"]
+            direction LR
+            CT["Front desk /<br/>control tower"]
+            TASK["Workflow<br/>task engine"]
+            ROUTE2{"Routing &<br/>priority engine"}
+            CT --> TASK --> ROUTE2
+        end
+
+        subgraph SERVICE["Service delivery layer"]
+            direction LR
+            LAB2["Lab"]
+            IMG2["Imaging"]
+            TEST2["Other test<br/>units"]
+        end
+
+        subgraph SHARED["Shared transaction layer"]
+            direction LR
+            LEDGER[("Central encounter<br/>ledger")]
+            HUB[("Report hub")]
+            LEDGER --> HUB
+        end
+
+        ORDER2 --> CT
+        ROUTE2 --> LAB2
+        ROUTE2 --> IMG2
+        ROUTE2 --> TEST2
+        LAB2 --> LEDGER
+        IMG2 --> LEDGER
+        TEST2 --> LEDGER
     end
 
-    subgraph Ops[Operations control layer]
-        FD[Front Desk / Control Tower]
-        TASK[Workflow Task Engine]
-        ROUTE[Routing & Priority Engine]
-        FD --> TASK --> ROUTE
+    subgraph INTEL["Analytics & management layer"]
+        direction LR
+        FLOW["Patient-flow<br/>KPIs"]
+        HR["HR / staffing<br/>analytics"]
+        FIN["Financial &<br/>ROI model"]
+        PRED["Predictive<br/>operations"]
+        EXECREC(["Executive<br/>recommendation"])
+
+        FLOW --> PRED --> EXECREC
+        HR --> EXECREC
+        FIN --> EXECREC
     end
 
-    subgraph Service[Service delivery layer]
-        LAB[Lab]
-        IMG[Imaging]
-        TEST[Other Test Units]
-    end
+    TASK -. task events .-> FLOW
+    ROUTE2 -. routing decisions .-> FLOW
+    LAB2 -. workload .-> HR
+    IMG2 -. workload .-> HR
+    TEST2 -. workload .-> HR
+    LEDGER -. cost & billing .-> FIN
 
-    subgraph Shared[Shared transaction layer]
-        BILL[Central Encounter Ledger]
-        REPORT[Report Hub]
-    end
+    classDef clinical fill:#EFF6FF,stroke:#2563EB,color:#0F172A,stroke-width:2px;
+    classDef control fill:#ECFEFF,stroke:#0891B2,color:#0F172A,stroke-width:2px;
+    classDef decision fill:#F5F3FF,stroke:#7C3AED,color:#2E1065,stroke-width:2px;
+    classDef service fill:#ECFDF5,stroke:#059669,color:#052E16,stroke-width:2px;
+    classDef shared fill:#FFF7ED,stroke:#EA580C,color:#431407,stroke-width:2px;
+    classDef analytics fill:#F8FAFC,stroke:#475569,color:#0F172A,stroke-width:1.5px;
+    classDef executive fill:#FEFCE8,stroke:#CA8A04,color:#422006,stroke-width:2px;
 
-    subgraph Intelligence[Analytics & management layer]
-        FLOW[Patient Flow KPIs]
-        HR[HR / Staffing Analytics]
-        FIN[Financial & ROI Model]
-        PRED[Predictive Ops]
-        EXEC[Executive Recommendation]
-    end
-
-    ORDER --> FD
-    ROUTE --> LAB
-    ROUTE --> IMG
-    ROUTE --> TEST
-    LAB --> BILL
-    IMG --> BILL
-    TEST --> BILL
-    BILL --> REPORT
-
-    TASK --> FLOW
-    ROUTE --> FLOW
-    LAB --> HR
-    IMG --> HR
-    TEST --> HR
-    BILL --> FIN
-    FLOW --> PRED
-    HR --> EXEC
-    FIN --> EXEC
-    PRED --> EXEC
+    class DOC2,ORDER2 clinical;
+    class CT,TASK control;
+    class ROUTE2 decision;
+    class LAB2,IMG2,TEST2 service;
+    class LEDGER,HUB shared;
+    class FLOW,HR,FIN,PRED analytics;
+    class EXECREC executive;
 ```
+
+**Diagram convention:** solid arrows represent the primary operational or decision path; dashed arrows represent analytics/supporting data feeds rather than patient movement.
 
 ---
 
