@@ -16,6 +16,10 @@ Healthcare Operations · Workflow Automation · HR Operations / HRBP · Finance 
 
 </div>
 
+<p align="center">
+  <img src="assets/bd-patient-journey-analytics-dashboard.jpg" alt="BD Patient Journey Analytics — smart post-doctor hospital workflow from consultation through routing, testing, centralized payment and reporting" width="100%" />
+</p>
+
 ---
 
 ## 🎯 The operating problem
