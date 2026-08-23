@@ -110,7 +110,28 @@ flowchart LR
 
 ### Core concept
 
-**Doctor → Service Orders → Front Desk Control Tower → AI-assisted Routing → Test Units → Centralized Payment → Report Hub & Exit**
+```mermaid
+flowchart LR
+    D([Doctor]) --> O[Service Orders]
+    O --> F[Front Desk<br/>Control Tower]
+    F --> R{"AI-assisted<br/>Routing"}
+    R --> T[Test Units]
+    T --> P[Centralized Payment]
+    P --> H[(Report Hub)]
+    H --> E([Exit])
+
+    classDef clinical fill:#EFF6FF,stroke:#2563EB,color:#0F172A,stroke-width:2px;
+    classDef control fill:#ECFEFF,stroke:#0891B2,color:#0F172A,stroke-width:2px;
+    classDef decision fill:#F5F3FF,stroke:#7C3AED,color:#2E1065,stroke-width:2px;
+    classDef service fill:#ECFDF5,stroke:#059669,color:#052E16,stroke-width:2px;
+    classDef shared fill:#FFF7ED,stroke:#EA580C,color:#431407,stroke-width:2px;
+
+    class D,O clinical;
+    class F control;
+    class R decision;
+    class T service;
+    class P,H,E shared;
+```
 
 The AI/analytics layer is intentionally operational. It can support routing, prioritization, queue forecasting and workload balancing, but it does **not** replace clinical judgement.
 
